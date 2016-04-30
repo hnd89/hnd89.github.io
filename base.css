@@ -1,0 +1,270 @@
+
+/*GENERAL*/
+body,html{
+	margin: 0;
+	height: 100%;
+	width: 100%;
+	background-color: #ffffff;
+	color: #3d464d;
+	font-size: 15px;
+	line-height: 22px;
+	font-family: 'Proxima-nova-light';
+	letter-spacing: 0.5px;
+}
+
+*{
+	margin:0;
+	padding:0;
+}
+a{
+	color: white;
+	text-decoration: none;
+}
+a:hover{
+	color: #f0e0d1;
+}
+.underline{
+	font-family: Proxima-nova-regular;
+}
+b{
+	font-family: Proxima-nova-regular;
+}
+.underline2{
+	border-bottom: 2px solid;
+}
+li{
+	list-style: none;
+}
+.portfolio .active{
+	text-decoration: underline;
+}
+p{
+	padding: 15px 0;
+
+}
+small{
+	font-size: 50%;
+}
+
+}
+b{
+	font-family: Proxima-nova-regular;
+}
+.divider{
+	border-bottom: 1px solid #DFE3E7;
+	width: 60px;
+	margin: 0 auto;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+
+.subtitle{
+	font-family: Times;
+	font-size: 14px;
+}
+
+.container{
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 60px 40px;
+}
+
+.spacer{
+	height: 70px;
+}
+
+content{
+	width: 100%;
+}
+
+
+
+/*FONT*/
+@font-face {
+    font-family: Proxima-nova-light;
+    src: url(fonts/Proxima_Nova_Light.ttf);
+}
+@font-face {
+    font-family: Proxima-nova-regular;
+    src: url(fonts/proxima_nova_regular.otf);
+}
+@font-face {
+    font-family: Proxima-nova-bold;
+    src: url(fonts/proxima_nova_bold.ttf);
+}
+
+h1{
+	font-size: 24px;
+}
+h2{
+	font-size: 20px;
+	font-weight: bold;
+}
+
+
+
+/*HEADER*/
+.header_box{
+	width: 400px;
+	font-size: 14px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	text-align: center;
+}
+.header_box li{
+	display: inline-block;
+	color: white;
+	padding: 20px 10px 0 10px;
+}
+
+.header_box_whitebg{
+	color: #3d464d;
+	width: 400px;
+	font-size: 13px;
+	letter-spacing: 1px;
+	margin: 0 auto;
+	text-align: center;
+}
+.header_box_whitebg li{
+	display: inline-block;
+	padding: 20px 10px 0 10px;
+}
+
+
+
+/*CONTENT*/
+.container_profile{
+	background-image: url(img/paris.jpg);
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+	height: 100%;
+	width: 100%;
+}
+
+.container_featured a{
+	color: #3d464d;
+}
+
+.container_featured a:hover{
+	color: #f0e0d1;
+}
+
+.featured_box{
+	color: ＃212121;
+	width: 700px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	letter-spacing: 0.5px;
+	margin-left: -350px;
+	margin-top: -150px;
+}
+
+.featured_list{
+	font-size: 13px;
+	padding-top: 40px;
+	-webkit-font-smoothing: antialiased;
+	font-family: Proxima-nova-regular;
+}
+
+.profile_box{
+	width: 700px;
+	position: absolute;
+	left: 50%;
+	top: 50%;
+	text-align: center;
+	color: white;
+	letter-spacing: 0.5px;
+	margin-left: -350px;
+	margin-top: -200px;
+}
+
+.profile_img{
+	text-align: center;
+}
+
+.profile_title{
+	padding-top: 20px;
+	font-size: 22px;
+	letter-spacing: 6px;
+	font-family: Proxima-nova-regular;
+}
+
+.profile_intro{
+	padding-top: 20px;
+	font-size: 14px;
+	text-transform: uppercase;
+	-webkit-font-smoothing: antialiased;
+	font-family: Proxima-nova-regular;
+}
+
+.profile_list{
+	font-size: 13px;
+	padding-top: 40px;
+	-webkit-font-smoothing: antialiased;
+	font-family: Proxima-nova-regular;
+}
+
+.profile_list li{
+	padding-bottom: 3px;
+}
+.featured_list li{
+	padding-bottom: 3px;
+}
+
+
+/*PORTFOLIO*/
+.portfolio_title{
+	font-family: Proxima-nova-regular;
+	font-size: 14px;
+	letter-spacing: 0.5px;
+	text-align: center;
+	padding-top: 40px;
+}
+.portfolio_obj{
+	text-align: center;
+	margin: 0 auto;
+}
+
+.subtitle{
+	font-size: 12px;
+	font-family: Proxima-nova-light;
+	opacity: .5;
+	text-align: center;
+}
+
+.portfolio_see{
+	font-family: Proxima-nova-regular;
+	font-size: 12px;
+	text-decoration: underline;
+	text-align: center;
+}
+
+.text_frame{
+	max-width: 900px;
+	word-wrap: break-word;
+	padding: 60px 40px 0 40px;
+	margin: 0 auto;
+}
+.image_frame{
+	max-width: 1200px;
+	word-wrap: break-word;
+	padding: 60px 40px 0 40px;
+	margin: 0 auto;
+}
+.image_frame img{
+	width: 100%;
+}
+
+
+/*FOOTER*/
+.cr{
+	max-width: 1200px;
+	margin: 0 auto;
+	margin-top: 75px;
+	font: 15px 'Proxima-nova-regular';
+	color: rgba(61,70,77,0.6);
+}
