@@ -17,7 +17,7 @@ body,html{
 	padding:0;
 }
 a{
-	color: white;
+	color: #3d464d;
 	text-decoration: none;
 }
 a:hover{
@@ -107,13 +107,14 @@ h2{
 
 /*HEADER*/
 .header_box{
+	color: #3d464d;
 	width: 400px;
-	font-size: 14px;
+	font-size: 13px;
 	letter-spacing: 1px;
 	margin: 0 auto;
 	text-align: center;
 }
-/*@media only screen and (min-device-width: 375px)
+@media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .header_box{
@@ -124,24 +125,9 @@ h2{
 	 	text-align: center;
 	 }
 }
-*/
+
 
 .header_box li{
-	display: inline-block;
-	color: white;
-	padding: 20px 10px 0 10px;
-}
-
-.header_box_whitebg{
-	color: #3d464d;
-	width: 400px;
-	font-size: 13px;
-	letter-spacing: 1px;
-	margin: 0 auto;
-	text-align: center;
-}
-
-.header_box_whitebg li{
 	display: inline-block;
 	padding: 20px 10px 0 10px;
 }
@@ -150,7 +136,7 @@ h2{
 
 
 /*CONTENT*/
-.container_profile{
+/*.container_profile{
 	background-image: url(img/paris.jpg);
   background-position: center center;
   background-repeat: no-repeat;
@@ -158,7 +144,7 @@ h2{
   background-size: cover;
 	height: 100%;
 	width: 100%;
-}
+}*/
 
 .container_featured a{
 	color: #3d464d;
@@ -198,7 +184,7 @@ h2{
 	left: 50%;
 	top: 50%;
 	text-align: center;
-	color: white;
+	color: #3d464d;
 	letter-spacing: 0.5px;
 	margin-left: -350px;
 	margin-top: -220px;
