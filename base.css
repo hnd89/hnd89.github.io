@@ -259,9 +259,26 @@ h2{
 .profile_list li{
 	padding-bottom: 3px;
 }
+@media only screen and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation : portrait) {
+	 .profile_list li{
+	 	padding-bottom: 9px;
+	 }
+	}
+}
 .featured_list li{
 	padding-bottom: 3px;
 }
+@media only screen and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation : portrait) {
+	 .featured_list li{
+	 	padding-bottom: 9px;
+	 }
+	}
+}
+
 
 
 /*PORTFOLIO*/
