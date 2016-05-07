@@ -203,11 +203,28 @@ h2{
 }
 
 .profile_img{
-	text-align: center;
+	margin: 0 auto;
+	background-image: url("img/me2.png");
+	background-repeat: no-repeat;
+	background-size: 70px;
+	width: 70px;
+	height: 70px;
+}
+@media only screen and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation : portrait) {
+	 .profile_img{
+	 	margin: 0 auto;
+	 	background-image: url("img/me2.png");
+	 	background-repeat: no-repeat;
+	 	background-size: 170px;
+	 	width: 170px;
+	 	height: 170px;
+	 }
 }
 
 .profile_title{
-	padding-top: 20px;
+	padding-top: 40px;
 	font-size: 34px;
 	letter-spacing: 6px;
 	font-family: Proxima-nova-light;
@@ -217,7 +234,7 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .profile_title{
-	 	padding-top: 50px;
+	 	padding-top: 80px;
 	 	font-size: 58px;
 	 	letter-spacing: 6px;
 	 	font-family: Proxima-nova-light;
