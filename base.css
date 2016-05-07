@@ -305,7 +305,7 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .profile_list li{
-	 	padding-bottom: 24px;
+	 	padding-bottom: 32px;
 	 }
 	}
 }
@@ -316,7 +316,7 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .featured_list li{
-	 	padding-bottom: 24px;
+	 	padding-bottom: 32px;
 	 }
 	}
 }
