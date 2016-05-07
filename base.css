@@ -185,12 +185,22 @@ h2{
 .profile_img{
 	text-align: center;
 }
+@media only screen
+ and (device-height: 667px),only screen
+ and (device-width: 667px) {
+	display:none;
+}
 
 .profile_title{
 	padding-top: 20px;
 	font-size: 22px;
 	letter-spacing: 6px;
 	font-family: Proxima-nova-regular;
+}
+@media only screen
+ and (device-height: 667px),only screen
+ and (device-width: 667px) {
+	 font-size: 34px;
 }
 
 .profile_intro{
