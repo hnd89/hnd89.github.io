@@ -195,6 +195,7 @@ h2{
 @media screen and (min-width: 480px) {
 	.profile_title{
 		padding-top: 20px;
+		padding-bottom: 10px;
 		font-size: 40px;
 		letter-spacing: 6px;
 		font-family: Proxima-nova-regular;
@@ -224,6 +225,14 @@ h2{
 	padding-top: 40px;
 	-webkit-font-smoothing: antialiased;
 	font-family: Proxima-nova-regular;
+}
+@media screen and (min-width: 480px) {
+	.profile_list{
+		font-size: 18px;
+		padding-top: 50px;
+		-webkit-font-smoothing: antialiased;
+		font-family: Proxima-nova-regular;
+	}
 }
 
 .profile_list li{
