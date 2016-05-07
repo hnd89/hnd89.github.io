@@ -198,7 +198,7 @@ h2{
 	 	color: #3d464d;
 	 	letter-spacing: 0.5px;
 	 	margin-left: -350px;
-	 	margin-top: -360px;
+	 	margin-top: -400px;
 	 }
 }
 
@@ -253,7 +253,7 @@ h2{
  and (orientation : portrait) {
 	 .profile_list{
 	 	font-size: 36px;
-	 	padding-top: 70px;
+	 	padding-top: 130px;
 	 	-webkit-font-smoothing: antialiased;
 	 	font-family: Proxima-nova-light;
 	 	text-transform: uppercase;
