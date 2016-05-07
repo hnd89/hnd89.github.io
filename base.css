@@ -291,7 +291,7 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	.profile_list{
-		font-size: 28px;
+		font-size: 34px;
 		padding-top: 70px;
 		-webkit-font-smoothing: antialiased;
 		font-family: Proxima-nova-regular;
