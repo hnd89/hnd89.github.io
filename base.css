@@ -24,7 +24,7 @@ a:hover{
 	color: #f0e0d1;
 }
 .underline{
-	font-family: Proxima-nova-regular;
+	font-family: Proxima-nova-light;
 }
 b{
 	font-family: Proxima-nova-regular;
@@ -79,6 +79,7 @@ content{
 
 
 
+
 /*FONT*/
 @font-face {
     font-family: Proxima-nova-light;
@@ -103,6 +104,7 @@ h2{
 
 
 
+
 /*HEADER*/
 .header_box{
 	width: 400px;
@@ -111,7 +113,7 @@ h2{
 	margin: 0 auto;
 	text-align: center;
 }
-@media only screen and (min-device-width: 375px)
+/*@media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .header_box{
@@ -122,20 +124,12 @@ h2{
 	 	text-align: center;
 	 }
 }
+*/
 
 .header_box li{
 	display: inline-block;
 	color: white;
 	padding: 20px 10px 0 10px;
-}
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
-	 .header_box li{
-	 	display: inline-block;
-	 	color: white;
-	 	padding: 60px 10px 0 10px;
-	 }
 }
 
 .header_box_whitebg{
@@ -146,31 +140,12 @@ h2{
 	margin: 0 auto;
 	text-align: center;
 }
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
-	 .header_box_whitebg{
-		color: #3d464d;
-	 	width: 700px;
-	 	font-size: 30px;
-	 	letter-spacing: 1px;
-	 	margin: 0 auto;
-	 	text-align: center;
-	 }
-}
 
 .header_box_whitebg li{
 	display: inline-block;
 	padding: 20px 10px 0 10px;
 }
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
-	 .header_box_whitebg li{
-	 	display: inline-block;
-	 	padding: 60px 10px 0 10px;
-	 }
-}
+
 
 
 
@@ -202,14 +177,19 @@ h2{
 	text-align: center;
 	letter-spacing: 0.5px;
 	margin-left: -350px;
-	margin-top: -150px;
+	margin-top: -170px;
 }
 
 .featured_list{
-	font-size: 13px;
-	padding-top: 40px;
+	font-size: 14px;
+	padding-top: 70px;
 	-webkit-font-smoothing: antialiased;
-	font-family: Proxima-nova-regular;
+	font-family: Proxima-nova-light;
+	text-transform: uppercase;
+}
+
+.featured_list li{
+	padding-bottom: 8px;
 }
 
 .profile_box{
@@ -221,22 +201,7 @@ h2{
 	color: white;
 	letter-spacing: 0.5px;
 	margin-left: -350px;
-	margin-top: -200px;
-}
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
-	 .profile_box{
- 		width: 700px;
- 		position: absolute;
- 		left: 50%;
- 		top: 50%;
- 		text-align: center;
- 		color: white;
- 		letter-spacing: 0.5px;
- 		margin-left: -350px;
- 		margin-top: -300px;
- 	}
+	margin-top: -220px;
 }
 
 .profile_img{
@@ -245,92 +210,44 @@ h2{
 
 .profile_title{
 	padding-top: 20px;
-	font-size: 22px;
+	font-size: 34px;
 	letter-spacing: 6px;
-	font-family: Proxima-nova-regular;
-}
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
-	.profile_title{
-		padding-top: 20px;
-		padding-bottom: 30px;
-		font-size: 50px;
-		letter-spacing: 6px;
-		font-family: Proxima-nova-regular;
-	}
+	font-family: Proxima-nova-light;
+	-webkit-font-smoothing: antialiased;
 }
 
 .profile_intro{
 	padding-top: 20px;
-	font-size: 14px;
+	font-size: 12px;
 	text-transform: uppercase;
-	-webkit-font-smoothing: antialiased;
 	font-family: Proxima-nova-regular;
-}
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
-	.profile_intro{
-		padding-top: 20px;
-		font-size: 34px;
-		line-height: 44px;
-		text-transform: uppercase;
-		-webkit-font-smoothing: antialiased;
-		font-family: Proxima-nova-regular;
-	}
 }
 
 .profile_list{
-	font-size: 13px;
-	padding-top: 40px;
+	font-size: 14px;
+	padding-top: 70px;
 	-webkit-font-smoothing: antialiased;
-	font-family: Proxima-nova-regular;
-}
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
-	.profile_list{
-		font-size: 34px;
-		padding-top: 70px;
-		-webkit-font-smoothing: antialiased;
-		font-family: Proxima-nova-regular;
-	}
+	font-family: Proxima-nova-light;
+	text-transform: uppercase;
 }
 
 .profile_list li{
-	padding-bottom: 3px;
+	padding-bottom: 8px;
 }
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
-	 .profile_list li{
-	 	padding-bottom: 32px;
-	 }
-	}
-}
-.featured_list li{
-	padding-bottom: 3px;
-}
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
-	 .featured_list li{
-	 	padding-bottom: 32px;
-	 }
-	}
-}
+
+
 
 
 
 /*PORTFOLIO*/
 .portfolio_title{
 	font-family: Proxima-nova-regular;
-	font-size: 14px;
-	letter-spacing: 0.5px;
+	font-size: 12px;
 	text-align: center;
 	padding-top: 40px;
+	text-transform: uppercase;
 }
+
 .portfolio_obj{
 	text-align: center;
 	margin: 0 auto;
@@ -341,6 +258,7 @@ h2{
 	font-family: Proxima-nova-light;
 	opacity: .5;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .portfolio_see{
@@ -348,6 +266,7 @@ h2{
 	font-size: 12px;
 	text-decoration: underline;
 	text-align: center;
+	text-transform: uppercase;
 }
 
 .text_frame{
@@ -356,15 +275,19 @@ h2{
 	padding: 60px 40px 0 40px;
 	margin: 0 auto;
 }
+
 .image_frame{
 	max-width: 1200px;
 	word-wrap: break-word;
 	padding: 60px 40px 0 40px;
 	margin: 0 auto;
 }
+
 .image_frame img{
 	width: 100%;
 }
+
+
 
 
 /*FOOTER*/
