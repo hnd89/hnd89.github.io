@@ -300,6 +300,17 @@ h2{
 	padding-top: 40px;
 	text-transform: uppercase;
 }
+@media only screen and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation : portrait) {
+	 .portfolio_title{
+	 	font-family: Proxima-nova-regular;
+	 	font-size: 18px;
+	 	text-align: center;
+	 	padding-top: 140px;
+	 	text-transform: uppercase;
+	 }
+}
 
 .portfolio_obj{
 	text-align: center;
@@ -313,6 +324,17 @@ h2{
 	text-align: center;
 	text-transform: uppercase;
 }
+@media only screen and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation : portrait) {
+	 .subtitle{
+	 	font-size: 18px;
+	 	font-family: Proxima-nova-light;
+	 	opacity: .5;
+	 	text-align: center;
+	 	text-transform: uppercase;
+	 }
+}
 
 .portfolio_see{
 	font-family: Proxima-nova-regular;
@@ -320,6 +342,17 @@ h2{
 	text-decoration: underline;
 	text-align: center;
 	text-transform: uppercase;
+}
+@media only screen and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation : portrait) {
+	 .portfolio_see{
+	 	font-family: Proxima-nova-regular;
+	 	font-size: 18px;
+	 	text-decoration: underline;
+	 	text-align: center;
+	 	text-transform: uppercase;
+	 }
 }
 
 .text_frame{
