@@ -213,7 +213,7 @@ h2{
 	.profile_title{
 		padding-top: 20px;
 		padding-bottom: 30px;
-		font-size: 40px;
+		font-size: 50px;
 		letter-spacing: 6px;
 		font-family: Proxima-nova-regular;
 	}
@@ -231,8 +231,8 @@ h2{
  and (orientation : portrait) {
 	.profile_intro{
 		padding-top: 20px;
-		font-size: 28px;
-		line-height: 38px;
+		font-size: 34px;
+		line-height: 42px;
 		text-transform: uppercase;
 		-webkit-font-smoothing: antialiased;
 		font-family: Proxima-nova-regular;
@@ -263,7 +263,7 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .profile_list li{
-	 	padding-bottom: 9px;
+	 	padding-bottom: 22px;
 	 }
 	}
 }
@@ -274,7 +274,7 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .featured_list li{
-	 	padding-bottom: 9px;
+	 	padding-bottom: 22px;
 	 }
 	}
 }
