@@ -162,6 +162,21 @@ h2{
 	margin-left: -350px;
 	margin-top: -200px;
 }
+@media only screen and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation : portrait) {
+	 .featured_box{
+	 	color: ＃212121;
+	 	width: 700px;
+	 	position: absolute;
+	 	left: 50%;
+	 	top: 50%;
+	 	text-align: center;
+	 	letter-spacing: 0.5px;
+	 	margin-left: -350px;
+	 	margin-top: -350px;
+	 }
+}
 
 .profile_box{
 	width: 700px;
