@@ -198,6 +198,17 @@ h2{
 	font-family: Proxima-nova-light;
 	-webkit-font-smoothing: antialiased;
 }
+@media only screen and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation : portrait) {
+	 .profile_title{
+	 	padding-top: 20px;
+	 	font-size: 44px;
+	 	letter-spacing: 6px;
+	 	font-family: Proxima-nova-light;
+	 	-webkit-font-smoothing: antialiased;
+	 }
+}
 
 .profile_intro{
 	padding-top: 20px;
