@@ -8,6 +8,13 @@
 <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+
+<!-- 1. Link to jQuery (1.8 or later), -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+
+<!-- fotorama.css & fotorama.js. -->
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script> <!-- 16 KB -->
 </head>
 
 <body>
@@ -27,7 +34,7 @@
         <!content>
           <div class="text_frame">
             <p><h1><b>Designing the new Origami profiles</b></h1></p>
-            <p>Initially, Origami profiles were mostly used as the showcase of their curated product and news updates for both businesses and users. Therefore, they were essentially designed to focus on these elements. With the introduction of  Shop reward program and Coupons, we set out to update the design in order to support greater expression of their brand, personality, and collection of products as well as rewards and coupons.</p>
+            <p>Origami profiles were primarily used as the showcase of their curated product and news updates for both businesses(shops) and users. Therefore, they were essentially designed to focus on these elements. With the introduction of  Shop reward program and Coupons, we set out to update the design in order to support greater expression of their brand, personality, and collection of products as well as rewards and coupons.</p>
             <br>
             <h2>Collaboration:</h2>
             <p>I was the sole designer on this project with 1 engineer with regular catch up meetings once a week for the implementation phase. During the design process, I held regular feedback session with the product team where we brainstormed and critiqued which helped me improve my design.</p>
@@ -37,19 +44,60 @@
             <h2>Final outcome:</h2>
           </div>
           <div class="image_frame" align="center">
-            <video class="video_false" width="320" controls autoplay loop>
-                <source src="Works_img/profileAni.mov" type="video/mp4">
-            </video>
-            <br><br><br>
-            <img src="works_img/profile/final.jpg">
+            <img src="works_img/profile/final.png">
           </div>
 
           <div class="text_frame">
             <h2>Old version of profile</h2>
-            <p>Ttext</p>
+            <p>With the old profile, we realised that the content needs to provide more apparent hierarchy as it was rather difficult to instantly scan high level information. Our challenge was to create hierarchies around new focus of the product, which includes Shop Rewards, Coupons, and points. These are predominantly focused around discounts for the users shopping experience. After we learned that each users and brands express their quality and uniqueness through their profiles, our another challenge was to provide building blocks for each profile to be uniquely representative of an individual. </p>
           </div>
           <div class="image_frame">
-            <img src="works_img/cart/">
+            <img src="works_img/profile/old.png">
+          </div>
+
+          <div class="text_frame">
+            <h2>Brainstorming / Variations</h2>
+            <p>I began by putting down all the ideas I had, and key points that should be considered before jumping into anything high fidelity and then roughly sketch out possible layout to solve the problem. What are the high level information? How should the products be presented? How do we integrate Shop rewards system and Coupons in the profiles? Should they even be a cover photo? These are some questions that were going through my head as I hashed out ideas. Here are some of the sketches I made.</p>
+          </div>
+          <div class="image_frame_fotorama">
+            <div class="fotorama">
+                <img src="works_img/profile/IMG_4361.jpg">
+                <img src="works_img/profile/IMG_4361.jpg">
+            </div>
+          </div>
+          <div class="image_frame">
+            <img src="works_img/profile/variation.jpg">
+          </div>
+
+          <div class="text_frame">
+            <h2>Approach and solution</h2>
+            <p><b>1. When visiting a profile, you should be able to scan high level information quickly so people can quickly digest what kind of shop it is. While having few existing major brands, majority of brands were rather unique and small businesses, thus it was important for it to have greater support to express their branding and what kind of shop it is.</b> To do this we decluttered the header image to give clear visual expression of the brand, and also centering logo and brand name to gain better attension. As oppose to the old profile, we brought out the information text to the front to provide additional space to present their shop information.</p>
+          </div>
+          <div class="image_frame">
+            <img src="works_img/profile/1.png">
+          </div>
+
+          <div class="text_frame">
+            <p><b>2. Product is the key deciding factor for users to follow a brand, so it should be able to quickly scan through.</b> For this we kept the infinite scrolling and made the tabs fixed on top in order to make collections and update tabs more accessible. Overall, we've been able to make these actions and animations smooth with the help of Engineering.</p>
+          </div>
+          <div class="image_frame" align="center">
+            <video class="video_false" width="300" controls autoplay loop>
+                <source src="Works_img/profile/scroll.mov" type="video/mp4">
+            </video>
+          </div>
+
+          <div class="text_frame">
+            <p><b>3. When you land on the profile, you should be able to take relevant actions.</b> To do this we made two most important actions most explicit: Follow and start/view Shop rewards. </p>
+          </div>
+          <div class="image_frame">
+            <img src="works_img/profile/3.png">
+          </div>
+
+          <div class="text_frame">
+            <p><b>4. While curation of products play big part of how users(consumer) use their profile, with this design update we focused more on the unilities around discount for their shopping experience.</b> For this we surfaced most important elements which was hidden under the settings, and also integrating shop rewards and coupon lists for better accessibility.</p>
+          </div>
+          <div class="image_frame">
+            <img src="works_img/profile/4.png">
           </div>
         </content>
 
