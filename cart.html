@@ -8,6 +8,12 @@
 <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<!-- 1. Link to jQuery (1.8 or later), -->
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script> <!-- 33 KB -->
+
+<!-- fotorama.css & fotorama.js. -->
+<link  href="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.css" rel="stylesheet"> <!-- 3 KB -->
+<script src="http://cdnjs.cloudflare.com/ajax/libs/fotorama/4.6.3/fotorama.js"></script> <!-- 16 KB -->
 </head>
 
 <body>
@@ -27,10 +33,10 @@
         <!content>
           <div class="text_frame">
             <p><h1><b>Designing the cart feature and improving the purchase flow</b></h1></p>
-            <p>As a fast growing commerce platform, purchasing product is core of Origami experience. When the last version was designed a few years ago, the number of purchases and use cases were substantially different than today. With this design update, we’ve been able to achieve a seamless transaction experience, by optimizing the flow and enabling multiple purchases at once.</p>
+            <p>As a fast growing commerce platform, purchasing product is core of Origami experience. When the last version was designed a few years ago, the number of users and purchases were substantially different than today. <br><br>With the rise of purchases we set out to update the design in order to support multiple purchases with one checkout, and provide better shipping rate to improve their shopping experience.<br><br>With this design update, we’ve successfully increased a purchase frequency and speed by optimizing the flow and enabling multiple item purchase.</p>
             <br>
             <h2>Collaboration:</h2>
-            <p>I was the sole designer on this project with 1 frontend and 3 backend engineers with regular catch up meetings once a week for the implementation stage. During the design process, I held regular feedback session with the product team where we brainstormed and critiqued which helped me improve my design.</p>
+            <p>I was the sole designer on this project with 1 frontend and 3 backend engineers with regular catch up meetings once a week for the implementation stage. During the design process, I held regular feedback session with the product team including the customer support where we brainstormed and critiqued which helped me improve my design.</p>
           </div>
 
           <div class="text_frame">
@@ -43,24 +49,31 @@
           </div>
 
           <div class="text_frame">
-            <h2>Old version of the purchase flow:</h2>
-            <p>To kickstart the process, we collaborated with customer support team and data analyst to understand in which part users dropout or struggle to proceed during their attempt to complete their purchase. We learned that many people had trouble finding where to select size/color and quantity, which resulted in buying wrong item. Dropout rate was increasing as it gets closer to the final confirmation with the existing multiple steps. </p>
+            <h2>Old version of purchase flow (The problem):</h2>
+            <p>To kickstart the process, we collaborated with customer support and data analyst to understand where users dropout or struggle to proceed during their attempt to complete their purchase. We learned that many people had trouble selecting/finding size/color and quantity, which resulted in buying wrong item. Dropout rate was also increasing as it gets closer to final step(complete payment). People were also often making separate purchases from the same store within a short time frame which required separate transaction and shipping fee.</p>
           </div>
           <div class="image_frame">
             <img src="works_img/cart/before.jpg">
           </div>
 
           <div class="text_frame">
-            <h2>Brainstorming and wireframe</h2>
-            <p>--</p>
+            <h2>Brainstorming and wireframing</h2>
+            <p>Before we get into any wireframing, we brainstormed every impact range with also including engineering team in order to figure out every elements that would be affected by adding the feature. Here is some of the major considerations we taken into account:<br><br><b>- Merchant console will be affected by enabling multiple purchase<br>- Shipping fee will be affected by enabling multiple purchase<br>- Time of delivery will be affected by enabling multiple purchases<br>- Confirmation/receipt emails will be affected by enabling multiple purchase<br>- Order history will be affected by enabling multiple purchase<br>- Total receiving points will be affected by enabling multiple purchase </b></p>
+          </div>
+
+          <div class="image_frame_fotorama">
+            <div class="fotorama">
+                <img src="works_img/profile/IMG_4361.jpg">
+                <img src="works_img/profile/IMG_4361.jpg">
+            </div>
           </div>
 
           <div class="text_frame">
             <h2>High fidelity Mockup</h2>
             <p>After figuring out the problem and sketching many rough ideas, I came up with simple flows and visual refresh of the feature. I narrowed them down to 3 main variations based on the feedback and pursuing simplest flow which solves the existing problem.
-              <br><br>Variation 1: Having "Add to cart" as the primary action and choosing whether to continue shopping or checkout cart item.
-              <br><br>Variation 2: Having "Add to cart" as the primary action but enabling instant checkout as well as adding to cart. Proceeding to checkout will include the items that was originally in the cart.
-              <br><br>Variation 3: Keeping the existing instant purchase flow which only includes the item you are currently trying to purchase. "Add to cart" will add item to the cart and multiple items can be purchased via inside the cart view.
+              <br><br><b>Variation 1:</b> Having "Add to cart" as the primary action and choosing whether to continue shopping or checkout cart item.
+              <br><br><b>Variation 2:</b> Having "Add to cart" as the primary action but enabling instant checkout as well as adding to cart. Proceeding to checkout will include the items that was originally in the cart.
+              <br><br><b>Variation 3:</b> Keeping the existing instant purchase flow which only includes the item you are currently trying to purchase. "Add to cart" will add item to the cart and multiple items can be purchased via inside the cart view.
             </p>
           </div>
           <div class="image_frame">
@@ -70,19 +83,24 @@
           <br><br>
           <div class="text_frame">
             <h2>Approach and solution</h2>
-            <p><b>1, 2. You should be able to know imidiately how to select Size/Color/Quantity.</b> To do this we made this view merely focused on selecting these options without any other information with simple half modal view.
-            <br><br><b>3. After selecting Size/Color/Quantity you should be able get to the final step as quick and easy as possible.</b> For this we removed all the steps we previously had to get to the final step by integrating Shipping address/Payment method all in a single page, so that it mentally feels less step and obvious exactly what you need to complete purchase.</p>
+            <p><b>1. You should be able to imidiately know how to select "Size" "Color" "Quantity".</b> To do this we made this view merely focused on selecting these options without showing any additional information by simple half modal view. For the checkout process, we intent to keep existing instant checkout and made "Add to cart" as a separate flow so that you can purchase item quickly without additional step and use cart when needed.</p>
           </div>
           <div class="image_frame">
-            <img src="works_img/cart/after.jpg">
+            <img src="works_img/cart/1.png">
           </div>
 
-          <br><br>
           <div class="text_frame">
-            <p><b>1. While curation of products play big part of how users use their profile, with this design update we focused more on the unilities around discount for their shopping experience.</b></p>
+            <p><b>2. Instant checkout <br><br>After selecting "Size" "Color" "Quantity" you should be able get to the final step as quick and easy as possible.</b> For this we reduced the steps by merging the "Shipping address" "Payment method" in a single page, which made it feel effortless.</p>
           </div>
           <div class="image_frame">
-            <img src="works_img/cart/cart.jpg">
+            <img src="works_img/cart/2.png">
+          </div>
+
+          <div class="text_frame">
+            <p><b>3. Cart checkout<br><br>You should also be able to purchase multiple kinds of items with single checkout.</b> For this we enabled adding multiple items via cart and purchase them all at once.</p>
+          </div>
+          <div class="image_frame">
+            <img src="works_img/cart/3.png">
           </div>
         </content>
 

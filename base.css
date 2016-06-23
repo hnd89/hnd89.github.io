@@ -210,9 +210,9 @@ h2{
 	margin: 0 auto;
 	background-image: url("img/me2.png");
 	background-repeat: no-repeat;
-	background-size: 70px;
-	width: 70px;
-	height: 70px;
+	background-size: 90px;
+	width: 90px;
+	height: 90px;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
