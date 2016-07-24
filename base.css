@@ -78,6 +78,15 @@ content{
 	width: 100%;
 }
 
+header{
+	background-color: #ffffff;
+	height: 60px;
+	position: fixed;
+	top: 0;
+	z-index: 10;
+	margin: 0 auto;
+	width: 100%;
+}
 
 
 
@@ -305,7 +314,7 @@ h2{
 	font-family: Proxima-nova-regular;
 	font-size: 12px;
 	text-align: center;
-	padding-top: 40px;
+	padding-top: 80px;
 	text-transform: uppercase;
 }
 @media only screen and (min-device-width: 375px)
