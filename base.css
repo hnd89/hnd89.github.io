@@ -30,6 +30,9 @@ a:hover{
 b{
 	font-family: Proxima-nova-regular;
 }
+.underline1{
+	border-bottom: 1.5px solid;
+}
 .underline2{
 	border-bottom: 2px solid;
 }
@@ -40,7 +43,7 @@ li{
 	text-decoration: underline;
 }
 p{
-	padding: 15px 0;
+	padding: 28px 0;
 
 }
 small{
@@ -105,7 +108,8 @@ header{
 }
 
 h1{
-	font-size: 26px;
+	font-size: 30px;
+	line-height: 36px;
 }
 h2{
 	font-size: 22px;
@@ -277,7 +281,7 @@ h2{
 
 .profile_list{
 	font-size: 14px;
-	padding-top: 70px;
+	padding-top: 50px;
 	-webkit-font-smoothing: antialiased;
 	font-family: Proxima-nova-light;
 	text-transform: uppercase;
@@ -464,7 +468,21 @@ h2{
 }
 
 
+.intro_box{
+	padding: 200px 150px;
+}
 
+.intro{
+	font-size: 32px;
+	letter-spacing: 0.5px;
+	font-weight: 400;
+	line-height: 46px;
+	font-family: Proxima-nova-light;
+}
+
+.introSub{
+	font-size: 18px;
+}
 
 /*FOOTER*/
 .cr{
