@@ -480,9 +480,9 @@ h2{
 	font-family: Proxima-nova-light;
 }
 }
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
+@media only screen and (min-device-width : 414px)
+ and (max-device-width : 736px)
+{
 	 .intro{
 	 	font-size: 52px;
 	 	line-height: 66px;
