@@ -29,6 +29,7 @@ a:hover{
 }
 b{
 	font-family: Proxima-nova-regular;
+	-webkit-font-smoothing: antialiased;
 }
 .underline1{
 	border-bottom: 1.5px solid;
@@ -49,10 +50,6 @@ small{
 	font-size: 50%;
 }
 
-}
-b{
-	font-family: Proxima-nova-regular;
-}
 .divider{
 	border-bottom: 1px solid #DFE3E7;
 	width: 60px;
@@ -117,11 +114,11 @@ header{
 h1{
 	font-size: 30px;
 	line-height: 36px;
-	font-family: Proxima-nova-regular;
+	font-family: Proxima-nova-light;
 }
 h2{
 	font-size: 22px;
-	font-family: Proxima-nova-regular;
+	font-family: Proxima-nova-light;
 }
 
 
