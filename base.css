@@ -89,6 +89,14 @@ header{
 	margin: 0 auto;
 	width: 100%;
 }
+@media only screen and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation : portrait) {
+	 header{
+	 	background-color: #ffffff;
+	 	height: 118px;
+	 }
+}
 
 
 
