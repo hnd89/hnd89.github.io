@@ -474,7 +474,7 @@ h2{
 @media (min-width: 100px) and (max-width: 900px)
 {
 	.intro_box{
-	 padding: 200px 70px;
+	 padding: 200px 60px;
 	}
 }
 
@@ -497,7 +497,7 @@ h2{
    and (max-device-width: 667px)
    and (-webkit-min-device-pixel-ratio: 2) {
 	 .intro{
-  	 font-size: 56px;
+  	 font-size: 50px;
   	}
  }
 
@@ -505,8 +505,25 @@ h2{
 	font-size: 1.4vw;
 	letter-spacing: 0.5px;
 	font-weight: 400;
-	line-height: 1;
+	line-height: 1.2;
 	font-family: Proxima-nova-light;
+}
+@media (min-width: 100px) and (max-width: 900px)
+{
+ .introSub{
+	font-size: 20px;
+	line-height: 1.6;
+ }
+}
+/* Portrait and Landscape */
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+	.introSub{
+		font-size: 40px;
+		line-height: 1.6;
+	 }
 }
 
 /*FOOTER*/
