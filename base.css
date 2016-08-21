@@ -122,7 +122,7 @@ h2{
 .header_box{
 	color: #3d464d;
 	width: 400px;
-	font-size: 13px;
+	font-size: 14px;
 	letter-spacing: 1px;
 	margin: 0 auto;
 	text-align: center;
@@ -173,7 +173,7 @@ h2{
 	text-align: center;
 	letter-spacing: 0.5px;
 	margin-left: -350px;
-	margin-top: -150px;
+	margin-top: -110px;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
@@ -260,7 +260,6 @@ h2{
 .profile_intro{
 	padding-top: 20px;
 	font-size: 12px;
-	text-transform: uppercase;
 	font-family: Proxima-nova-regular;
 }
 @media only screen and (min-device-width: 375px)
@@ -269,7 +268,6 @@ h2{
 	 .profile_intro{
 	 	padding-top: 50px;
 	 	font-size: 18px;
-	 	text-transform: uppercase;
 	 	font-family: Proxima-nova-regular;
 	 }
 }
@@ -279,26 +277,23 @@ h2{
 }
 
 .profile_list{
-	font-size: 14px;
-	padding-top: 50px;
+	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 	font-family: Proxima-nova-light;
-	text-transform: uppercase;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .profile_list{
-	 	font-size: 36px;
+	 	font-size: 40px;
 	 	padding-top: 130px;
 	 	-webkit-font-smoothing: antialiased;
 	 	font-family: Proxima-nova-light;
-	 	text-transform: uppercase;
 	 }
 }
 
 .profile_list li{
-	padding-bottom: 8px;
+	padding-bottom: 12px;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
@@ -315,20 +310,18 @@ h2{
 /*PORTFOLIO*/
 .portfolio_title{
 	font-family: Proxima-nova-regular;
-	font-size: 12px;
+	font-size: 16px;
 	text-align: center;
 	padding-top: 80px;
-	text-transform: uppercase;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .portfolio_title{
 	 	font-family: Proxima-nova-regular;
-	 	font-size: 18px;
+	 	font-size: 26px;
 	 	text-align: center;
 	 	padding-top: 140px;
-	 	text-transform: uppercase;
 	 }
 }
 
@@ -402,11 +395,10 @@ h2{
 }
 
 .subtitle{
-	font-size: 12px;
+	font-size: 13px;
 	font-family: Proxima-nova-light;
 	opacity: .5;
 	text-align: center;
-	text-transform: uppercase;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
@@ -416,17 +408,15 @@ h2{
 	 	font-family: Proxima-nova-light;
 	 	opacity: .5;
 	 	text-align: center;
-	 	text-transform: uppercase;
 		padding-top: 20px;
 	 }
 }
 
 .portfolio_see{
 	font-family: Proxima-nova-regular;
-	font-size: 12px;
+	font-size: 13px;
 	text-decoration: underline;
 	text-align: center;
-	text-transform: uppercase;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
@@ -436,7 +426,6 @@ h2{
 	 	font-size: 18px;
 	 	text-decoration: underline;
 	 	text-align: center;
-	 	text-transform: uppercase;
 		padding-top: 20px;
 	 }
 }
