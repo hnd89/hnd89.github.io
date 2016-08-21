@@ -44,7 +44,6 @@ li{
 }
 p{
 	padding: 28px 0;
-
 }
 small{
 	font-size: 50%;
@@ -474,8 +473,17 @@ h2{
 @media (min-width: 100px) and (max-width: 900px)
 {
 	.intro_box{
-	 padding: 200px 60px;
+	 padding: 140px 60px;
 	}
+}
+/* Portrait and Landscape */
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+		.intro_box{
+		 padding: 320px 90px;
+		}
 }
 
 .intro{
@@ -488,7 +496,7 @@ h2{
  @media (min-width: 100px) and (max-width: 900px)
  {
  	.intro{
- 	 font-size: 30px;
+ 	 font-size: 20px;
  	}
  }
  /* Portrait and Landscape */
@@ -508,11 +516,13 @@ h2{
 	font-weight: 400;
 	line-height: 1.2;
 	font-family: Proxima-nova-light;
+	margin-top: 5vw;
 }
 @media (min-width: 100px) and (max-width: 900px)
 {
  .introSub{
-	font-size: 20px;
+	margin-top: 50px;
+	font-size: 14px;
 	line-height: 1.6;
  }
 }
@@ -522,10 +532,32 @@ h2{
 	and (max-device-width: 667px)
 	and (-webkit-min-device-pixel-ratio: 2) {
 	.introSub{
-		padding-top: 110px;
+		margin-top: 130px;
 		font-size: 36px;
 		line-height: 1.6;
 	 }
+}
+
+.intro_box p{
+	margin-bottom: 3vw;
+	padding: 0;
+}
+@media (min-width: 100px) and (max-width: 900px)
+{
+	.intro_box p{
+  	margin-bottom: 4vw;
+  	padding: 0;
+  }
+}
+/* Portrait and Landscape */
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+		.intro_box p{
+			margin-bottom: 5vw;
+			padding: 0;
+		}
 }
 
 /*FOOTER*/
