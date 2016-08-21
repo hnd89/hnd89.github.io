@@ -117,10 +117,11 @@ header{
 h1{
 	font-size: 30px;
 	line-height: 36px;
+	font-family: Proxima-nova-regular;
 }
 h2{
 	font-size: 22px;
-	font-weight: bold;
+	font-family: Proxima-nova-regular;
 }
 
 
@@ -286,7 +287,6 @@ h2{
 
 .profile_list{
 	font-size: 16px;
-	-webkit-font-smoothing: antialiased;
 	font-family: Proxima-nova-light;
 }
 @media only screen and (min-device-width: 375px)
@@ -295,7 +295,6 @@ h2{
 	 .profile_list{
 	 	font-size: 40px;
 	 	padding-top: 130px;
-	 	-webkit-font-smoothing: antialiased;
 	 	font-family: Proxima-nova-light;
 	 }
 }
@@ -317,7 +316,7 @@ h2{
 
 /*PORTFOLIO*/
 .portfolio_title{
-	font-family: Proxima-nova-regular;
+	font-family: Proxima-nova-light;
 	font-size: 16px;
 	text-align: center;
 	padding-top: 80px;
@@ -326,7 +325,7 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .portfolio_title{
-	 	font-family: Proxima-nova-regular;
+	 	font-family: Proxima-nova-light;
 	 	font-size: 28px;
 	 	text-align: center;
 	 	padding-top: 140px;
@@ -334,7 +333,7 @@ h2{
 }
 
 .portfolio_title_first{
-	font-family: Proxima-nova-regular;
+	font-family: Proxima-nova-light;
 	font-size: 16px;
 	text-align: center;
 	padding-top: 120px;
@@ -343,7 +342,7 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .portfolio_title_first{
-	 	font-family: Proxima-nova-regular;
+	 	font-family: Proxima-nova-light;
 	 	font-size: 28px;
 	 	text-align: center;
 	 	padding-top: 220px;
@@ -443,6 +442,7 @@ h2{
 	padding-bottom: 14px;
 	text-decoration: underline;
 	text-align: center;
+	padding-top: 4px;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
