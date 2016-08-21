@@ -319,7 +319,7 @@ h2{
  and (orientation : portrait) {
 	 .portfolio_title{
 	 	font-family: Proxima-nova-regular;
-	 	font-size: 26px;
+	 	font-size: 28px;
 	 	text-align: center;
 	 	padding-top: 140px;
 	 }
@@ -336,7 +336,7 @@ h2{
  and (orientation : portrait) {
 	 .portfolio_title_first{
 	 	font-family: Proxima-nova-regular;
-	 	font-size: 26px;
+	 	font-size: 28px;
 	 	text-align: center;
 	 	padding-top: 220px;
 	 }
@@ -421,7 +421,7 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .subtitle{
-	 	font-size: 18px;
+	 	font-size: 20px;
 	 	font-family: Proxima-nova-light;
 	 	opacity: .5;
 	 	text-align: center;
@@ -441,7 +441,7 @@ h2{
  and (orientation : portrait) {
 	 .portfolio_see{
 	 	font-family: Proxima-nova-regular;
-	 	font-size: 18px;
+	 	font-size: 24px;
 	 	text-decoration: underline;
 	 	text-align: center;
 		padding-top: 20px;
