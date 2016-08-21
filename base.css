@@ -498,6 +498,7 @@ h2{
    and (-webkit-min-device-pixel-ratio: 2) {
 	 .intro{
   	 font-size: 50px;
+		 line-height: 1.3;
   	}
  }
 
