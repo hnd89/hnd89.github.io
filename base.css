@@ -521,7 +521,8 @@ h2{
 	and (max-device-width: 667px)
 	and (-webkit-min-device-pixel-ratio: 2) {
 	.introSub{
-		font-size: 40px;
+		padding-top: 110px;
+		font-size: 36px;
 		line-height: 1.6;
 	 }
 }
