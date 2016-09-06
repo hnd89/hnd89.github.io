@@ -600,7 +600,7 @@ h2{
 	and (max-device-width: 667px)
 	and (-webkit-min-device-pixel-ratio: 2) {
 		.intro li{
-	  	font: 90px 'Proxima-nova-bold';
+	  	font: 80px 'Proxima-nova-bold';
 	  }
 }
 
@@ -619,6 +619,16 @@ h2{
 	font-size: 16px;
 	font-family: 'baskerville';
 	font-style: italic;
+}
+/* Portrait and Landscape */
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+		.sm{
+			font-size: 20px;
+			display: block;
+		}
 }
 
 .logos li{
