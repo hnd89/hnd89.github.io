@@ -5,7 +5,7 @@ body,html{
 	height: 100%;
 	width: 100%;
 	background-color: #ffffff;
-	color: #3d464d;
+	color: #363a3e;
 	font-size: 15px;
 	line-height: 22px;
 	font-family: 'Proxima-nova-light';
@@ -17,7 +17,7 @@ body,html{
 	padding:0;
 }
 a{
-	color: #3d464d;
+	color: #363a3e;
 	text-decoration: none;
 }
 a:hover{
@@ -287,8 +287,9 @@ h2{
 }
 
 .profile_list{
-	font-size: 16px;
-	font-family: Proxima-nova-light;
+	font-size: 20px;
+	font-family: baskerville;
+	font-style: italic;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
@@ -296,7 +297,7 @@ h2{
 	 .profile_list{
 	 	font-size: 40px;
 	 	padding-top: 130px;
-	 	font-family: Proxima-nova-light;
+	 	font-family: Proxima-nova-regular;
 	 }
 }
 
@@ -317,10 +318,11 @@ h2{
 
 /*PORTFOLIO*/
 .portfolio_title{
-	font-family: Proxima-nova-light;
-	font-size: 16px;
+	font-family: Proxima-nova-regular;
+	font-size: 17px;
 	text-align: center;
 	padding-top: 80px;
+	padding-bottom: 4px;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
@@ -334,9 +336,10 @@ h2{
 }
 
 .portfolio_title_first{
-	font-family: Proxima-nova-light;
-	font-size: 16px;
+	font-family: Proxima-nova-regular;
+	font-size: 17px;
 	text-align: center;
+	padding-bottom: 4px;
 	padding-top: 120px;
 }
 @media only screen and (min-device-width: 375px)
@@ -420,8 +423,9 @@ h2{
 }
 
 .subtitle{
-	font-size: 13px;
-	font-family: Proxima-nova-light;
+	font-size: 14px;
+	font-family: baskerville;
+	font-style: italic;
 	opacity: .5;
 	text-align: center;
 }
@@ -439,11 +443,11 @@ h2{
 
 .portfolio_see{
 	font-family: Proxima-nova-regular;
-	font-size: 13px;
+	font-size: 14px;
 	padding-bottom: 14px;
 	text-decoration: underline;
 	text-align: center;
-	padding-top: 4px;
+	padding-top: 12px;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
@@ -532,55 +536,6 @@ h2{
   	}
  }
 
-.introSub{
-	font-size: 1.4vw;
-	letter-spacing: 0.5px;
-	font-weight: 400;
-	line-height: 1.2;
-	font-family: Proxima-nova-light;
-	margin-top: 5vw;
-}
-@media (min-width: 100px) and (max-width: 900px)
-{
- .introSub{
-	margin-top: 50px;
-	font-size: 14px;
-	line-height: 1.6;
- }
-}
-/* Portrait and Landscape */
-@media only screen
-	and (min-device-width: 375px)
-	and (max-device-width: 667px)
-	and (-webkit-min-device-pixel-ratio: 2) {
-	.introSub{
-		margin-top: 130px;
-		font-size: 32px;
-		line-height: 1.6;
-	 }
-}
-
-.intro_box p{
-	margin-bottom: 3vw;
-	padding: 0;
-}
-@media (min-width: 100px) and (max-width: 900px)
-{
-	.intro_box p{
-  	margin-bottom: 4vw;
-  	padding: 0;
-  }
-}
-/* Portrait and Landscape */
-@media only screen
-	and (min-device-width: 375px)
-	and (max-device-width: 667px)
-	and (-webkit-min-device-pixel-ratio: 2) {
-		.intro_box p{
-			margin-bottom: 8vw;
-			padding: 0;
-		}
-}
 
 /*FOOTER*/
 .cr{
