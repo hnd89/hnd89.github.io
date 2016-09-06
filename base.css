@@ -600,7 +600,7 @@ h2{
 	and (max-device-width: 667px)
 	and (-webkit-min-device-pixel-ratio: 2) {
 		.intro li{
-	  	font: 30px 'Proxima-nova-bold';
+	  	font: 90px 'Proxima-nova-bold';
 	  }
 }
 
