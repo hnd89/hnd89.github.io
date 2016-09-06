@@ -594,6 +594,12 @@ h2{
   	font: 60px 'Proxima-nova-bold';
   }
 }
+@media (min-width: 100px) and (max-width: 800px)
+{
+	.intro li{
+  	font: 40px 'Proxima-nova-bold';
+  }
+}
 /* Portrait and Landscape */
 @media only screen
 	and (min-device-width: 375px)
@@ -620,13 +626,19 @@ h2{
 	font-family: 'baskerville';
 	font-style: italic;
 }
+@media (min-width: 100px) and (max-width: 1200px)
+{
+	.sm{
+		display: block;
+	}
+}
 /* Portrait and Landscape */
 @media only screen
 	and (min-device-width: 375px)
 	and (max-device-width: 667px)
 	and (-webkit-min-device-pixel-ratio: 2) {
 		.sm{
-			font-size: 20px;
+			font-size: 24px;
 			display: block;
 		}
 }
@@ -635,4 +647,15 @@ h2{
 	display: inline-block;
 	padding-right: 12px;
 	padding-top: 40px;
+}
+/* Portrait and Landscape */
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+		.logos li{
+			display: inline-block;
+			padding-right: 20px;
+			padding-top: 60px;
+		}
 }
