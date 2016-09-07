@@ -288,7 +288,7 @@ h2{
 
 .profile_list{
 	font-size: 20px;
-	font-family: baskerville;
+	font-family: 'baskerville';
 	font-style: italic;
 }
 @media only screen and (min-device-width: 375px)
@@ -424,7 +424,7 @@ h2{
 
 .subtitle{
 	font-size: 14px;
-	font-family: baskerville;
+	font-family: 'baskerville';
 	font-style: italic;
 	opacity: .5;
 	text-align: center;
