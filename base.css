@@ -609,6 +609,8 @@ h2{
 	and (-webkit-min-device-pixel-ratio: 2) {
 		.twitter{
 			width: 30px;
+			background-image: url("img/twitter.png");
+			background-repeat: no-repeat;
 			background-size: 45px;
 			padding-left: 10px;
 		}
