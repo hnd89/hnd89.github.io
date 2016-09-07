@@ -609,10 +609,8 @@ h2{
 	and (-webkit-min-device-pixel-ratio: 2) {
 		.twitter{
 			width: 30px;
-			background-image: url("img/twitter.png");
-			background-repeat: no-repeat;
 			background-size: 45px;
-			padding-left: 10px;
+			padding-left: 20px;
 		}
 }
 .vsco{
@@ -622,6 +620,17 @@ h2{
 	background-size: 25px;
 	padding-left: 10px;
 }
+/* Portrait and Landscape */
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+		.vsco{
+			width: 30px;
+			background-size: 45px;
+			padding-left: 20px;
+		}
+}
 .behance{
 	width: 20px;
 	background-image: url("img/behance.png");
@@ -629,10 +638,32 @@ h2{
 	background-size: 25px;
 	padding-left: 10px;
 }
+/* Portrait and Landscape */
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+		.behance{
+			width: 30px;
+			background-size: 45px;
+			padding-left: 20px;
+		}
+}
 .linkedin{
 	width: 20px;
 	background-image: url("img/linkedin.png");
 	background-repeat: no-repeat;
 	background-size: 25px;
 	padding-left: 10px;
+}
+/* Portrait and Landscape */
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+		.linkedin{
+			width: 30px;
+			background-size: 45px;
+			padding-left: 20px;
+		}
 }
