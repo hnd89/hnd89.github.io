@@ -34,9 +34,6 @@ b{
 .underline1{
 	border-bottom: 1.5px solid;
 }
-.underline2{
-	border-bottom: 2px solid;
-}
 li{
 	list-style: none;
 }
@@ -115,6 +112,7 @@ header{
     font-family: Playfair;
     src: url(fonts/PlayfairDisplay-SemiBoldItalic.ttf);
 }
+
 
 
 h1{
@@ -399,29 +397,6 @@ h2{
 	 }
 }
 
-.android_nav_img{
-	text-align: center;
-	margin: 0 auto;
-	background-image: url("works_img/android.png");
-	background-repeat: no-repeat;
-	background-size: 400px;
-	width: 400px;
-	height: 700px;
-}
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
-	 .android_nav_img{
-	 	text-align: center;
-	 	margin: 0 auto;
-	 	background-image: url("works_img/android.png");
-	 	background-repeat: no-repeat;
-	 	background-size: 600px;
-	 	width: 600px;
-	 	height: 1000px;
-	 }
-}
-
 .subtitle{
 	font-size: 14px;
 	font-family: baskerville;
@@ -601,6 +576,7 @@ h2{
 
 .logos{
 	float: right;
+	padding-top: 40px;
 }
 .logos li{
 	display: inline-block;
@@ -617,4 +593,44 @@ h2{
 			padding-right: 20px;
 			padding-top: 60px;
 		}
+}
+
+.twitter{
+	width: 20px;
+	background-image: url("img/twitter.png");
+	background-repeat: no-repeat;
+	background-size: 25px;
+	padding-left: 10px;
+}
+/* Portrait and Landscape */
+@media only screen
+	and (min-device-width: 375px)
+	and (max-device-width: 667px)
+	and (-webkit-min-device-pixel-ratio: 2) {
+		.twitter{
+			width: 30px;
+			background-size: 45px;
+			padding-left: 10px;
+		}
+}
+.vsco{
+	width: 20px;
+	background-image: url("img/vsco.png");
+	background-repeat: no-repeat;
+	background-size: 25px;
+	padding-left: 10px;
+}
+.behance{
+	width: 20px;
+	background-image: url("img/behance.png");
+	background-repeat: no-repeat;
+	background-size: 25px;
+	padding-left: 10px;
+}
+.linkedin{
+	width: 20px;
+	background-image: url("img/linkedin.png");
+	background-repeat: no-repeat;
+	background-size: 25px;
+	padding-left: 10px;
 }
