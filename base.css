@@ -395,6 +395,9 @@ h2{
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
  and (orientation : portrait) {
+	 .subtitleWork{
+	 	padding-top: 34px;
+	 }
 	 .subtitle{
 	 	font-size: 20px;
 	 	opacity: .5;
