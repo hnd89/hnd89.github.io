@@ -6,8 +6,8 @@ body,html{
 	width: 100%;
 	background-color: #ffffff;
 	color: #363a3e;
-	font-size: 15px;
-	line-height: 22px;
+	font-size: 18px;
+	line-height: 26px;
 	font-family: 'Proxima-nova-light';
 	letter-spacing: 0.5px;
 }
@@ -26,10 +26,6 @@ a:hover{
 .underline{
 	font-family: Proxima-nova-light;
 	color: #f0e0d1;
-}
-b{
-	font-family: Proxima-nova-regular;
-	-webkit-font-smoothing: antialiased;
 }
 .underline1{
 	border-bottom: 1.5px solid;
@@ -50,6 +46,7 @@ li{
 }
 p{
 	padding: 28px 0;
+	color: #575757;
 }
 small{
 	font-size: 50%;
@@ -60,18 +57,24 @@ video{
 	-moz-box-shadow: 0px 1px 2px 0px rgba(143,143,143,0.37);
 	box-shadow: 0px 1px 2px 0px rgba(143,143,143,0.37);
 }
-
+.bold{
+	font-family: Proxima-nova-bold;
+	-webkit-font-smoothing: antialiased;
+}
 .divider{
-	border-bottom: 1px solid #DFE3E7;
-	width: 60px;
+	border-bottom: 1px solid #363a3e;
+	width: 100px;
 	margin: 0 auto;
-	margin-top: 20px;
-	margin-bottom: 20px;
+	margin-top: 60px;
+	margin-bottom: 60px;
 }
 
-.subtitle{
-	font-family: Times;
-	font-size: 14px;
+.divider_sm{
+	border-bottom: 1px solid #d1d1d1;
+	width: 60px;
+	margin: 0 auto;
+	margin-top: 30px;
+	margin-bottom: 30px;
 }
 
 .container{
@@ -83,7 +86,9 @@ video{
 .spacer{
 	height: 70px;
 }
-
+.top_space{
+	margin: 100px 0 40px 0;
+}
 content{
 	width: 100%;
 }
@@ -192,7 +197,7 @@ h2{
 	text-align: center;
 	letter-spacing: 0.5px;
 	margin-left: -350px;
-	margin-top: -120px;
+	margin-top: -140px;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
@@ -206,13 +211,14 @@ h2{
 	 	text-align: center;
 	 	letter-spacing: 0.5px;
 	 	margin-left: -350px;
-	 	margin-top: -380px;
+	 	margin-top: -420px;
 	 }
 }
 
 .profile_list{
 	font-size: 20px;
 	font-family: 'baskerville' !important;
+	-webkit-font-smoothing: antialiased;
 	font-style: italic;
 }
 @media only screen and (min-device-width: 375px)
@@ -243,7 +249,7 @@ h2{
 /*PORTFOLIO*/
 .portfolio_title{
 	font-family: Proxima-nova-regular;
-	font-size: 17px;
+	font-size: 20px;
 	text-align: center;
 	padding-top: 80px;
 	padding-bottom: 4px;
@@ -252,8 +258,8 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .portfolio_title{
-	 	font-family: Proxima-nova-light;
-	 	font-size: 28px;
+	 	font-family: Proxima-nova-regular;
+	 	font-size: 38px;
 	 	text-align: center;
 	 	padding-top: 140px;
 	 }
@@ -261,7 +267,7 @@ h2{
 
 .portfolio_title_first{
 	font-family: Proxima-nova-regular;
-	font-size: 17px;
+	font-size: 20px;
 	text-align: center;
 	padding-bottom: 4px;
 	padding-top: 120px;
@@ -270,8 +276,8 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .portfolio_title_first{
-	 	font-family: Proxima-nova-light;
-	 	font-size: 28px;
+	 	font-family: Proxima-nova-regular;
+	 	font-size: 38px;
 	 	text-align: center;
 	 	padding-top: 220px;
 	 }
@@ -358,7 +364,7 @@ h2{
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
  and (orientation : portrait) {
-	 .discover_img{
+	 .store_img{
 	 	text-align: center;
 	 	margin: 0 auto;
 	 	background-image: url("works_img/store.png");
@@ -370,18 +376,20 @@ h2{
 }
 
 .subtitleWork{
+	font-size: 18px;
+	font-family: 'baskerville' !important;
+	font-style: italic;
+	-webkit-font-smoothing: antialiased;
+	color: #999999;
+	text-align: center;
+	padding-top: 14px;
+}
+.subtitle{
 	font-size: 16px;
 	font-family: 'baskerville' !important;
 	font-style: italic;
-	opacity: .5;
-	text-align: center;
-	padding-top: 10px;
-}
-.subtitle{
-	font-size: 14px;
-	font-family: 'baskerville' !important;
-	font-style: italic;
-	opacity: .5;
+	color: #999999;
+	-webkit-font-smoothing: antialiased;
 	text-align: center;
 }
 @media only screen and (min-device-width: 375px)
@@ -420,6 +428,15 @@ h2{
 	word-wrap: break-word;
 	padding: 60px 40px 0 40px;
 	margin: 0 auto;
+}
+@media only screen and (min-device-width: 375px)
+ and (max-device-width: 667px)
+ and (orientation : portrait) {
+	 .text_frame{
+	 	word-wrap: break-word;
+	 	padding: 60px 80px 0 80px;
+	 	margin: 0 auto;
+	 }
 }
 
 .image_frame{
@@ -500,15 +517,19 @@ h2{
 	 	max-width: 100%;
 	 	margin: 0 auto;
 	 }
+	 .top_space{
+	 	margin-top: 170px;
+	 }
 	 body{
 		 font-size: 26px;
-		 line-height: 38px;
+		 line-height: 40px;
 		 font-family: helvetica;
 		 font-weight: lighter;
 	 }
 	 h1{
 		 font-size: 54px;
 		 line-height: 62px;
+		 padding-top: 40px;
 		 font-family: helvetica;
 	 }
 	 h2{
@@ -603,14 +624,7 @@ h2{
  }
 
 
-/*FOOTER*/
-.cr{
-	max-width: 1200px;
-	margin: 0 auto;
-	margin-top: 75px;
-	font: 15px 'Proxima-nova-regular';
-	color: rgba(61,70,77,0.6);
-}
+/*Index Page*/
 
 .intro li{
 	font: 70px 'Proxima-nova-bold';
@@ -649,8 +663,9 @@ h2{
 
 .sm{
 	padding-right: 16px;
-	font-size: 16px;
+	font-size: 18px;
 	font-family: 'baskerville' !important;
+	-webkit-font-smoothing: antialiased;
 	font-style: italic;
 	display: block;
 }
@@ -685,6 +700,12 @@ h2{
 			padding-top: 60px;
 		}
 }
+
+
+
+
+
+///////////* icons *///////////
 
 .twitter{
 	width: 20px;
