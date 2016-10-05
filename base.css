@@ -550,6 +550,10 @@ h2{
 	 .subtitle{
 		 font-size: 30px;
 	 }
+	 .divider{
+	 	margin-top: 90px;
+	 	margin-bottom: 90px;
+	 }
 }
 @media only screen and (min-width: 375px)
  and (max-width: 600px)
