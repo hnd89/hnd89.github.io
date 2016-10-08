@@ -214,12 +214,12 @@ h2{
 	 	text-align: center;
 	 	letter-spacing: 0.5px;
 	 	margin-left: -350px;
-	 	margin-top: -420px;
+	 	margin-top: -485px;
 	 }
 }
 
 .profile_list{
-	font-size: 20px;
+	font-size: 22px;
 	font-family: 'baskerville' !important;
 	-webkit-font-smoothing: antialiased;
 	font-style: italic;
@@ -228,14 +228,14 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .profile_list{
-	 	font-size: 40px;
+	 	font-size: 48px;
 	 	padding-top: 130px;
 	 	font-family: Proxima-nova-regular;
 	 }
 }
 
 .profile_list li{
-	padding-bottom: 14px;
+	padding-bottom: 18px;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
@@ -261,15 +261,13 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .portfolio_title{
-	 	font-family: Proxima-nova-regular;
-	 	font-size: 38px;
-	 	text-align: center;
+	 	font-size: 44px;
+		font-weight: 400;
 	 	padding-top: 140px;
 	 }
 }
 
 .portfolio_title_first{
-	font-family: Proxima-nova-regular;
 	font-size: 20px;
 	text-align: center;
 	padding-bottom: 4px;
@@ -279,8 +277,8 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .portfolio_title_first{
-	 	font-family: Proxima-nova-regular;
-	 	font-size: 38px;
+	 	font-size: 44px;
+		font-weight: 400;
 	 	text-align: center;
 	 	padding-top: 220px;
 	 }
@@ -310,10 +308,8 @@ h2{
 	 	padding-top: 38px;
 	 }
 	 .subtitle{
-	 	font-size: 20px;
-	 	opacity: .5;
-	 	text-align: center;
-		padding-top: 20px;
+	 	font-size: 30px;
+		padding-top: 0px;
 	 }
 }
 
@@ -337,11 +333,8 @@ h2{
  and (max-device-width: 667px)
  and (orientation : portrait) {
 	 .portfolio_see{
-	 	font-family: Proxima-nova-regular;
-	 	font-size: 24px;
-	 	text-decoration: underline;
-	 	text-align: center;
-		padding-top: 20px;
+	 	font-size: 34px;
+		padding-top: 10px;
 	 }
 }
 
@@ -739,6 +732,22 @@ h2{
 	height: 67vh;
 	margin-top: 60px;
 }
+.cover_cart{
+	background-image: url("img/cover_cart.jpg");
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 67vh;
+	margin-top: 60px;
+}
+.cover_profile{
+	background-image: url("img/cover_profile.jpg");
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 67vh;
+	margin-top: 60px;
+}
 /* Portrait and Landscape */
 @media only screen
 	and (min-device-width: 375px)
@@ -749,6 +758,14 @@ h2{
 			margin-top: 120px;
 		}
 		.cover_discover{
+			height: 45vh;
+			margin-top: 120px;
+		}
+		.cover_cart{
+			height: 45vh;
+			margin-top: 120px;
+		}
+		.cover_profile{
 			height: 45vh;
 			margin-top: 120px;
 		}
