@@ -5,7 +5,7 @@ body,html{
 	height: 100%;
 	width: 100%;
 	background-color: #ffffff;
-	color: #363a3e;
+	color: #212121;
 	font-size: 17px;
 	line-height: 25px;
 	font-family: 'Proxima-nova-light';
@@ -17,7 +17,7 @@ body,html{
 	padding:0;
 }
 a{
-	color: #363a3e;
+	color: #212121;
 	text-decoration: none;
 }
 a:hover{
@@ -70,11 +70,11 @@ video{
 }
 
 .divider_sm{
-	border-bottom: 1px solid #d1d1d1;
-	width: 60px;
+	border-bottom: 1px solid #e2e2e2;
+	width: 40px;
 	margin: 0 auto;
 	margin-top: 30px;
-	margin-bottom: 20px;
+	margin-bottom: 12px;
 }
 
 .container{
@@ -150,7 +150,7 @@ h2{
 
 /*HEADER*/
 .header_box{
-	color: #3d464d;
+	color: #212121;
 	width: 400px;
 	font-size: 16px;
 	margin: 0 auto;
@@ -184,7 +184,7 @@ h2{
 
 /*CONTENT*/
 .container_featured a{
-	color: #3d464d;
+	color: #212121;
 }
 
 .container_featured a:hover{
@@ -272,7 +272,7 @@ h2{
 	font-size: 20px;
 	text-align: center;
 	padding-bottom: 4px;
-	padding-top: 140px;
+	padding-top: 130px;
 }
 @media only screen and (min-device-width: 375px)
  and (max-device-width: 667px)
@@ -316,7 +316,7 @@ h2{
 
 
 .portfolio_obj img{
- width: 360px;
+ width: 370px;
 }
 .portfolio_obj{
  text-align: center;;
@@ -508,7 +508,7 @@ h2{
 
 
 .intro_box{
-	padding: 140px 230px;
+	padding: 130px 250px;
 }
 @media (min-width: 100px) and (max-width: 1280px)
 {
@@ -528,7 +528,7 @@ h2{
 	and (max-device-width: 667px)
 	and (-webkit-min-device-pixel-ratio: 2) {
 		.intro_box{
-		 padding: 430px 90px;
+		 padding: 330px 90px;
 		}
 }
 
@@ -567,12 +567,12 @@ h2{
 /*Index Page*/
 
 .intro li{
-	font: 70px 'Proxima-nova-bold';
+	font: 80px 'Proxima-nova-bold';
 }
 @media (min-width: 100px) and (max-width: 1280px)
 {
 	.intro li{
-  	font: 50px 'Proxima-nova-bold';
+  	font: 60px 'Proxima-nova-bold';
   }
 }
 @media (min-width: 100px) and (max-width: 800px)
@@ -588,6 +588,7 @@ h2{
 	and (-webkit-min-device-pixel-ratio: 2) {
 		.intro li{
 	  	font: 80px 'Proxima-nova-bold';
+			padding-top: 30px;
 	  }
 }
 
@@ -635,7 +636,6 @@ h2{
 	and (-webkit-min-device-pixel-ratio: 2) {
 		.logos li{
 			display: inline-block;
-			padding-right: 20px;
 			padding-top: 60px;
 		}
 }
@@ -665,11 +665,11 @@ h2{
 		}
 }
 .vsco{
-	width: 20px;
+	width: 25px;
 	background-image: url("img/vsco.png");
 	background-repeat: no-repeat;
-	background-size: 25px;
-	padding-left: 10px;
+	background-size: 30px;
+	padding-left: 5px;
 }
 /* Portrait and Landscape */
 @media only screen
@@ -677,9 +677,9 @@ h2{
 	and (max-device-width: 667px)
 	and (-webkit-min-device-pixel-ratio: 2) {
 		.vsco{
-			width: 30px;
-			background-size: 45px;
-			padding-left: 26px;
+			width: 40px;
+			background-size: 55px;
+			padding-left: 34px;
 		}
 }
 .behance{
@@ -773,4 +773,8 @@ h2{
 			height: 45vh;
 			margin-top: 120px;
 		}
+}
+
+.menudiv{
+	color: #e2e2e2;
 }
