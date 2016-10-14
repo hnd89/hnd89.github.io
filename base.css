@@ -73,8 +73,7 @@ video{
 	border-bottom: 1px solid #e2e2e2;
 	width: 40px;
 	margin: 0 auto;
-	margin-top: 30px;
-	margin-bottom: 12px;
+	margin-top: 20px;
 }
 
 .container{
@@ -183,41 +182,13 @@ h2{
 
 
 /*CONTENT*/
-.container_featured a{
-	color: #212121;
+.container_profile{
+	background-color: #000000;
+	height: 100%;
 }
-
-.container_featured a:hover{
-	color: #f0e0d1;
+.index{
+	background-color: #000000;
 }
-
-.featured_box{
-	color: ＃212121;
-	width: 700px;
-	position: absolute;
-	left: 50%;
-	top: 50%;
-	text-align: center;
-	letter-spacing: 0.5px;
-	margin-left: -350px;
-	margin-top: -140px;
-}
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 667px)
- and (orientation : portrait) {
-	 .featured_box{
-	 	color: ＃212121;
-	 	width: 700px;
-	 	position: absolute;
-	 	left: 50%;
-	 	top: 50%;
-	 	text-align: center;
-	 	letter-spacing: 0.5px;
-	 	margin-left: -350px;
-	 	margin-top: -485px;
-	 }
-}
-
 .profile_list{
 	font-size: 22px;
 	font-family: 'baskerville' !important;
@@ -634,9 +605,8 @@ h2{
 	and (min-device-width: 375px)
 	and (max-device-width: 667px)
 	and (-webkit-min-device-pixel-ratio: 2) {
-		.logos li{
-			display: inline-block;
-			padding-top: 60px;
+		.logos {
+			padding-top: 80px;
 		}
 }
 
@@ -666,7 +636,7 @@ h2{
 }
 .vsco{
 	width: 25px;
-	background-image: url("img/vsco.png");
+	background-image: url("img/vsco2.png");
 	background-repeat: no-repeat;
 	background-size: 30px;
 	padding-left: 5px;
@@ -680,42 +650,7 @@ h2{
 			width: 40px;
 			background-size: 55px;
 			padding-left: 34px;
-		}
-}
-.behance{
-	width: 20px;
-	background-image: url("img/behance.png");
-	background-repeat: no-repeat;
-	background-size: 25px;
-	padding-left: 10px;
-}
-/* Portrait and Landscape */
-@media only screen
-	and (min-device-width: 375px)
-	and (max-device-width: 667px)
-	and (-webkit-min-device-pixel-ratio: 2) {
-		.behance{
-			width: 30px;
-			background-size: 45px;
-			padding-left: 26px;
-		}
-}
-.linkedin{
-	width: 20px;
-	background-image: url("img/linkedin.png");
-	background-repeat: no-repeat;
-	background-size: 25px;
-	padding-left: 10px;
-}
-/* Portrait and Landscape */
-@media only screen
-	and (min-device-width: 375px)
-	and (max-device-width: 667px)
-	and (-webkit-min-device-pixel-ratio: 2) {
-		.linkedin{
-			width: 30px;
-			background-size: 45px;
-			padding-left: 26px;
+			padding-bottom: 30px;
 		}
 }
 
@@ -777,4 +712,7 @@ h2{
 
 .menudiv{
 	color: #e2e2e2;
+}
+.menudiv.index{
+	color: #212121;
 }
