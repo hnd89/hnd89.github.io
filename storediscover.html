@@ -23,11 +23,9 @@
 
         <header>
           <div class="header_box">
-            <li><a href="index.html">Profile</a></li>
-            <li class="menudiv">|</li>
-            <li><a href="work.html">Work</a></li>
-            <li class="menudiv">|</li>
-            <li><a href="https://www.behance.net/hiroportfolio">Behance</a></li>
+            <li><a href="index.html">HOME</a><span class="spacer_nav">/</span></li>
+            <li><a href="work.html">WORK</a><span class="spacer_nav">/</span></li>
+            <li><a href="about.html">ABOUT</a></li>
           </div>
         </header>
 
@@ -36,38 +34,43 @@
           <div class="text_frame">
             <div class="top_space"><h1>Designing the store discovery experience</h1><div class="subtitleWork">Origami・2016</div></div>
             <div class="divider"></div>
-            <p>Origami has evolved over time and began to focus on mobile payment service to improve how people shop at the store by offering better incentive and experience for the consumers. In order to achieve this we needed to evolve our product and simplify the consumer experience to support multiple methods of payment while educating customers about the discounts at available stores. </p>
+            <p>Origami has evolved over time and began to focus on mobile payment service to improve how people shop at the store by offering better incentive and experience for the consumers. In order to achieve this we needed to evolve our product and simplify the consumer experience to support methods of payment while educating customers about the discounts at available stores. </p>
             <h2>Objective:</h2>
               <ul class="dot">
-                In the initial phase we needed to consider many conditions as we did not have such a great stores volumes to offer, however these are the significant points that we took into account in order to create a best experience for our users with our store volumes at that time:<br><br>
+                <p>In the initial phase we needed to consider many conditions as we did not have such a great store volumes to offer, however these are the significant points that we took into account in order to create a best experience for our users with our store volumes at that time:</p><br>
                 <li>Focus on showing the best content rather than showing everything.</li>
                 <li>Primarily we should have the control of our curated content.</li>
                 <li>Manage content accordingly to your area and interest. Static content does not work for everyone.</li>
                 <li>Make sure to offer many type of content so that we can learn which content is more useful over time. We can use this knowledge to then build a better shop discovery feature (once we have greater shop volume) as we will know which stores resinate with people the most.</li>
               </ul>
-            <h2>Collaboration:</h2>
-            <p>I mainly worked with my co-product designer Jonathon Toon, 1 iOS, 1 android, 2 backend engineers, 1 data engineer, and 1 marketing specialist to build this product. We also involved other teams when needed to get further input.</p>
           </div>
 
           <div class="text_frame">
             <p><h2>Final</h2></p>
           </div>
-          <div class="image_frame">
-            <img class="left" src="works_img/discover/final2.jpg">
-            <img class="right" src="works_img/discover/final1.jpg">
-          </div>
 
           <div class="text_frame">
-            <h2>Wireframe</h2>
-            <p>text</p>
+            <h2>Wireframe & UX</h2>
+            <p></p>
+          </div>
+          <div class="image_frame">
+            <img class="full" src="works_img/discover/ux.png">
           </div>
 
           <div class="text_frame">
             <h2>Exploration</h2>
-            <p>Early web experiment that didn't work<br><br>We failed to provide best content with this design as it can only show one type of category one at the time and takes effort to switch between categories. One of the merit for the verticle list is that you can show many content in one view, however with the volume of stores we had at that time it was not the UI we wanted.</p>
+            <p><italic>Early web experiment that didn't work</italic><br><br>It turns out that we couldn't provide best content with this design as it can only show one type of category one at the time and takes effort to switch between categories. One of the merit for the verticle list is that you can show many stores in one view, however with the volume of stores we had at that time it was not the UI we wanted.</p>
           </div>
           <div class="image_frame">
             <img class="full" src="works_img/discover/explore1.jpg">
+          </div>
+          <div class="text_frame">
+            <p>Quick web prototype that we made with using actual store information API.</p>
+          </div>
+          <div class="image_frame">
+            <video width="320" controls autoplay loop style="margin-bottom: 100px;">
+              <source src="works_img/discover/earlyDiscovery.mov" type="video/mp4">
+            </video>
           </div>
           <div class="text_frame">
             <p>UI & UX brainstorming<br><br>Learning from prior experiment with a quick web prototype we decided to design a UI that is able to show as many types of categories as possible. This way we can curate and focus on the high quality content in a single page. Our intension was to make this feature as effortless as possible while showing the most valuable content for customers.</p>
@@ -83,16 +86,24 @@
           </div>
 
           <div class="text_frame">
-            <h2>Interaction</h2>
-            <p>As a final result we decided to show content by using geo-location and created a system(algorithm) to analyse what they most likely to be engaged with(using their data such as viewed content, sex, purchased history and so on). This way we were able to create the content that is tailored for respective users.</p>
+            <h2>Outcome</h2>
+            <p>We decided it made most sense to make each sections corousel to have various categories in a single page so it shows few most interesting content from each of them. As people have different preferences and interests, we also used cobination of geo-location and data from users such as Viewed stores, whether they are Male/Female and Purchased history to tailor content for each users. </p>
+          </div>
+          <div class="image_frame">
+            <img class="left" src="works_img/discover/final2.png">
+            <img class="right" src="works_img/discover/final1.png">
           </div>
 
+          <div class="text_frame">
+            <h2>Specification</h2>
+            <p>We maintained aspect ratio in order to make consistant proportion throughout various devices.</p>
+          </div>
+          <div class="image_frame">
+            <img class="full" src="works_img/discover/moduleMeasurement.png">
+            <img class="full" src="works_img/discover/fullSpec.png">
+          </div>
 
         </content>
-
-        <footer>
-
-        </footer>
 
     </div>
 
