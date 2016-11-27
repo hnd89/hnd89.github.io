@@ -32,6 +32,7 @@ li{
 }
 .dot{
 	padding: 28px 0;
+	color: #575757;
 }
 .portfolio .active{
 	text-decoration: underline;
@@ -121,8 +122,10 @@ h1{
 }
 h2{
 	font-size: 26px;
-	font-family: Proxima-nova-regular;
-	padding-top: 40px;
+	font-family: "playfair";
+	-webkit-font-smoothing: antialiased;
+	font-weight: lighter;
+	padding-top: 60px;
 }
 
 
@@ -214,6 +217,13 @@ header{
 .portfolio_obj{
  text-align: center;;
 }
+.portfolio_obj_wide img{
+ width: 670px;
+ padding-top: 20px;
+}
+.portfolio_obj_wide{
+ text-align: center;;
+}
 .portfolio_see{
 	font-family: Proxima-nova-regular;
 	font-size: 14px;
@@ -258,7 +268,13 @@ header{
 }
 .center{
 	display: inline-block;
-	max-width: 39%;
+	max-width: 36%;
+	margin: 0 auto;
+	padding-bottom: 20px;
+}
+.center_wide{
+	display: inline-block;
+	max-width: 62%;
 	margin: 0 auto;
 	padding-bottom: 20px;
 }
@@ -283,6 +299,14 @@ header{
 	height: 66vh;
 	margin-top: 60px;
 }
+.cover_foodriends{
+	background-image: url("img/cover_foodriends.png");
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 66vh;
+	margin-top: 60px;
+}
 .cover_cart{
 	background-image: url("img/cover_cart.jpg");
 	background-size: cover;
@@ -299,7 +323,14 @@ header{
 	height: 66vh;
 	margin-top: 60px;
 }
-
+.cover_gq{
+	background-image: url("img/cover_gq.png");
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 66vh;
+	margin-top: 60px;
+}
 
 
 
@@ -342,10 +373,10 @@ header{
 	left: 50%;
 	top: 50%;
 	margin-left: -300px;
-	margin-top: -140px;
+	margin-top: -130px;
 }
 .profile_title{
-	font-size: 64px;
+	font-size: 68px;
 	line-height: 74px;
 	font-family: "BickhamScriptStd-Regular";
 	-webkit-font-smoothing: antialiased;
@@ -354,7 +385,7 @@ header{
 .profile_subtitle{
 	margin-top: 16px;
 	font-size: 14px;
-	letter-spacing: 7px;
+	letter-spacing: 6px;
 	font-family: 'Proxima-nova-light';
 	-webkit-font-smoothing: antialiased;
 	color: #ffffff;
@@ -362,7 +393,7 @@ header{
 }
 .profile_box li{
 	font-family: "playfair";
-	font-size: 15px;
+	font-size: 16px;
 	-webkit-font-smoothing: antialiased;
 	margin-top: 50px;
 	display: inline-block;
