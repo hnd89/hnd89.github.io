@@ -407,7 +407,7 @@ header{
 	font-size: 90px;
 }
 .intro{
-	width: 380px;
+	width: 460px;
 	font-family: Playfair;
 	-webkit-font-smoothing: antialiased;
 	font-size: 16px;
@@ -424,7 +424,7 @@ header{
 	left: 50%;
 	top: 50%;
 	margin-left: -300px;
-	margin-top: -196px;
+	margin-top: -216px;
 }
 .mail{
 	font-family: 'Proxima-nova-light';
