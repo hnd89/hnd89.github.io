@@ -49,6 +49,9 @@ video{
 	-moz-box-shadow: 0px 1px 2px 0px rgba(143,143,143,0.37);
 	box-shadow: 0px 1px 2px 0px rgba(143,143,143,0.37);
 }
+video::-webkit-media-controls {
+  display:none !important;
+}
 .divider{
 	border-bottom: 1px solid #363a3e;
 	width: 100px;
