@@ -214,6 +214,9 @@ header{
 .portfolio_obj img{
  width: 370px;
 }
+.portfolio_obj video{
+ width: 300px;
+}
 .portfolio_obj{
  text-align: center;;
 }
@@ -589,6 +592,9 @@ header{
 	 }
 	 .portfolio_obj img{
 	 	width: 760px;
+	 }
+	 .portfolio_obj video{
+	 	width: 700px;
 	 }
 	 .portfolio_obj{
 	 	text-align: center;
