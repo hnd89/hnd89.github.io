@@ -264,14 +264,14 @@ header{
 }
 .left{
 	display: inline-block;
-	max-width: 36%;
+	max-width: 38%;
 	float: left;
 	padding-left: 40px;
 	padding-bottom: 20px;
 }
 .center{
 	display: inline-block;
-	max-width: 36%;
+	max-width: 38%;
 	margin: 0 auto;
 	padding-bottom: 20px;
 }
@@ -594,7 +594,7 @@ header{
 	 	width: 760px;
 	 }
 	 .portfolio_obj video{
-	 	width: 660px;
+	 	width: 650px;
 	 }
 	 .portfolio_obj{
 	 	text-align: center;
