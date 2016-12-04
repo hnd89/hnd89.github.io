@@ -52,6 +52,18 @@ video{
 video::-webkit-media-controls {
   display:none !important;
 }
+*::-webkit-media-controls-panel {
+  display: none!important;
+  -webkit-appearance: none;
+}
+*::--webkit-media-controls-play-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
+*::-webkit-media-controls-start-playback-button {
+  display: none!important;
+  -webkit-appearance: none;
+}
 .divider{
 	border-bottom: 1px solid #363a3e;
 	width: 100px;
