@@ -182,7 +182,7 @@ header{
 .portfolio_title{
 	font-family: Playfair;
 	-webkit-font-smoothing: antialiased;
-	font-size: 20px;
+	font-size: 25px;
 	text-align: center;
 	padding-top: 80px;
 	padding-bottom: 4px;
@@ -190,7 +190,7 @@ header{
 .portfolio_title_first{
 	font-family: Playfair;
 	-webkit-font-smoothing: antialiased;
-	font-size: 20px;
+	font-size: 25px;
 	text-align: center;
 	padding-bottom: 4px;
 	padding-top: 130px;
