@@ -598,9 +598,6 @@ header{
 		 line-height: 54px;
 		 font-family: helvetica;
 	 }
-	 .portfolio_title{
-		 font-family: helvetica;
-	 }
 	 .divider{
 	 	margin-top: 60px;
 	 	margin-bottom: 60px;
@@ -641,13 +638,13 @@ header{
 	 }
 	 .portfolio_title_first{
 		font-family: Playfair !important;
-	 	font-size: 50px;
+	 	font-size: 50px !important;
 		font-weight: 400;
-	 	padding-top: 220px;
+	 	padding-top: 290px;
 	 }
 	 .portfolio_title{
 		font-family: Playfair !important;
-	 	font-size: 50px;
+	 	font-size: 50px !important;
 		font-weight: 400;
 	 	padding-top: 200px;
 	 }
