@@ -260,7 +260,7 @@ header{
 }
 .right{
 	display: inline-block;
-	max-width: 36%;
+	max-width: 38%;
 	float: right;
 	padding-right: 40px;
 	padding-bottom: 20px;
@@ -290,7 +290,7 @@ header{
 	padding-bottom: 20px;
 }
 .cover_store{
-	background-image: url("img/cover_store.jpg");
+	background-image: url("img/cover_store.png");
 	background-size: cover;
 	background-position: center center;
 	width: 100%;
