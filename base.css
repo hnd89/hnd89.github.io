@@ -274,8 +274,14 @@ header{
 	display: inline-block;
 	max-width: 38%;
 	float: right;
-	padding-right: 40px;
-	padding-bottom: 20px;
+	margin-right: 40px;
+	margin-bottom: 20px;
+}
+.right_vid{
+	display: inline-block;
+	max-width: 30.2%;
+	float: right;
+	margin: 35px 90px 35px 35px;
 }
 .left{
 	display: inline-block;
@@ -573,6 +579,12 @@ header{
 	 	max-width: 100%;
 		padding-right: 0px;
 		float: none;
+	 }
+	 .right_vid{
+	 	display: inline-block;
+	 	max-width: 71%;
+	 	float: none;
+		margin: 20px;
 	 }
 	 .center{
 	 	display: inline-block;
