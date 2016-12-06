@@ -532,7 +532,7 @@ header{
 	 }
 	 .profile_subtitle{
 		 margin-top: 30px;
-		 margin-bottom: 80px;
+		 margin-bottom: 120px;
 		 font-size: 26px;
 		 letter-spacing: 10px;
 		 font-family: 'Proxima-nova-light';
@@ -542,7 +542,7 @@ header{
 		 font-family: "playfair";
 		 font-size: 38px;
 		 -webkit-font-smoothing: antialiased;
-		 margin-top: 56px;
+		 margin-top: 64px;
 		 display: block;
 	 }
 	 .spacer{
