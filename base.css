@@ -489,7 +489,7 @@ header{
 	 .intro{
 	 	width: 660px;
 	 	font-size: 34px;
-	 	line-height: 54px;
+	 	line-height: 58px;
 	 	padding-bottom: 4px;
 	 	padding-top: 30px;
 	 }
@@ -500,7 +500,7 @@ header{
 	 	left: 50%;
 	 	top: 50%;
 	 	margin-left: -330px;
-	 	margin-top: -370px;
+	 	margin-top: -400px;
 	 }
 	 .icon img{
 	 	width: 150px;
@@ -508,14 +508,10 @@ header{
 		margin-bottom: 30px;
 	 }
 	 .mail{
-	 	font-size: 28px;
-	 	letter-spacing: 6px;
-	 	padding-top: 80px;
+	 	visibility: hidden;
 	 }
 	 .cv{
-		font-size: 28px;
-	 	letter-spacing: 6px;
-	 	padding-top: 10px;
+		visibility: hidden;
 	 }
 	 .profile_box{
 		 width: 600px;
@@ -617,7 +613,7 @@ header{
 	 	width: 760px;
 	 }
 	 .portfolio_obj video{
-	 	width: 650px;
+	 	width: 620px;
 	 }
 	 .portfolio_obj{
 	 	text-align: center;
