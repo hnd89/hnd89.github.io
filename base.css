@@ -22,6 +22,16 @@ a{
 a:hover{
 	color: #ffffff;
 }
+.white_text:hover{
+	color: #000000;
+}
+.underline_white:hover{
+	color: #000000;
+}
+.underline_white{
+	border-bottom: 1px solid #fff;
+	padding-bottom: 1px;
+}
 li{
 	list-style: none;
 }
@@ -72,7 +82,7 @@ video::-webkit-media-controls {
 	margin-bottom: 60px;
 }
 .underline{
-	border-bottom: 1px solid #000000;
+	border-bottom: 1px solid #fff;
 	padding-bottom: 1px;
 }
 .divider_sm{
@@ -95,7 +105,13 @@ video::-webkit-media-controls {
 content{
 	width: 100%;
 }
-
+.container_featured_bk{
+	background-color: #000000;
+}
+.bk{
+	background-color: #000000;
+	color: #ffffff;
+}
 
 
 
@@ -164,6 +180,13 @@ header{
 	text-align: center;
 }
 .header_box{
+	font-family: "playfair";
+	font-size: 12px;
+	-webkit-font-smoothing: antialiased;
+	display: inline-block;
+	padding-top: 2px;
+}
+.header_box_bk{
 	font-family: "playfair";
 	font-size: 12px;
 	-webkit-font-smoothing: antialiased;
@@ -431,15 +454,16 @@ header{
 	font-size: 90px;
 }
 .intro{
-	width: 460px;
+	width: 510px;
 	font-family: Playfair;
 	-webkit-font-smoothing: antialiased;
-	font-size: 16px;
-	line-height: 28px;
+	font-size: 18px;
+	line-height: 30px;
 	text-align: center;
 	padding-bottom: 4px;
 	padding-top: 30px;
 	margin: 0 auto;
+	color: #ffffff;
 }
 .intro_box{
 	position: absolute;
@@ -448,7 +472,7 @@ header{
 	left: 50%;
 	top: 50%;
 	margin-left: -300px;
-	margin-top: -216px;
+	margin-top: -226px;
 }
 .mail{
 	font-family: 'Proxima-nova-light';
@@ -456,6 +480,7 @@ header{
 	font-size: 13px;
 	letter-spacing: 2px;
 	padding-top: 30px;
+	color: #ffffff;
 }
 .cv{
 	font-family: 'Proxima-nova-light';
@@ -463,12 +488,13 @@ header{
 	font-size: 13px;
 	letter-spacing: 2px;
 	padding-top: 10px;
+	color: #ffffff;
 }
 .icon{
 	text-align: center;
 }
 .icon img{
-	width: 78px;
+	width: 88px;
 	border-radius: 200px;
 }
 .content_front{
