@@ -34,34 +34,36 @@
           <div class="text_frame">
             <div class="top_space"><h1>On Boarding Improvement</h1><div class="subtitleWork">Origami・2017</div></div>
             <div class="divider"></div>
-            <p>Origami is a mobile payment service to provide better shopping experience for both online and at physical stores by connecting consumers and shops. Origami currently achieves this by offering discounts and seamless transaction everytime you pay in store. It also offers optimised recommendations for users, therefore it brings more consumers.<br><br>In order to bring more users in the app we decided to improve our on-boarding UX and most importantly solve existing problem. Since our previous design update, we've seen some major dropout rates during the on-boarding process which was caused by email verification signIn/Up as some of the users were failing to receive email on the spot. Those users couldn't signUp/In as there were no fallback way to continue. To tackle this issue we went on to improve the overall UX of the on-boarding flow.</p>
+            <p>Origami is a mobile payment service to provide better shopping experience for both online and at physical stores by connecting consumers and shops. Origami currently achieves this by offering discounts and seamless transaction everytime you pay in store. It also offers optimised recommendations for users, therefore it brings more consumers.<br><br>In order to bring more users in the app we decided to improve our on-boarding UX and most importantly solve existing problem. Since our previous design update, we've seen some major dropout rates during the on-boarding process. To tackle this issue we went on to improve the overall UX of the on-boarding flow.</p>
+          </div>
+
+          <div class="text_frame">
+            <h2>Old design / Problem</h2>
+            <p>With our current way to signup or signin the verification code method is used in order to make onboarding smooth and faster without typing or deciding the password. After seeing the data and testing with users, we found that some of the email goes into junk mail and some also entering wrong address which resulted in not being able to receive verification code. Those users couldn't signup as there were no fallback way to continue.</p>
+          </div>
+          <div class="image_frame">
+            <img class="full" src="works_img/onboarding/old.png">
+          </div>
+
+          <div class="text_frame">
             <h2>Product Goal:</h2>
               <ul class="dot">
                 <li>Origami has two different aspects which are online shopping and shopping at the physical stores. Whichever you are intending to use whether you are at physical store or starting out at home, on-boarding experience should work for any situations.</li>
-                <li>Make sure that nothing stops you from on-boarding.</li>
                 <li>Completing the on-boarding process should be super easy and fast.</li>
               </ul>
+          </div>
+
+          <div class="text_frame">
             <h2>KPI:</h2>
-            <p>Reduce 20% of the dropout rate per monthly.</p>
+            <p>To measure success of the product we monitored how much we can reduce 15% of the daily dropout rate.</p>
           </div>
 
           <div class="text_frame">
-            <h2>Old design</h2>
-            <p>In the old version we found out that the entrance of the onboarding was confusing for the first time user as it doesn't have sign up button and only provides either Pay-in-store-now or login. It was completely missing out for those who are trying to sign up not inside a store. Another problem is that there was no fallback if a user failed to receive email verification code (approx 20% fail /momth). Instead of using the password, this verification code signup/login method was previously chosen in order to make onboarding smooth and faster.</p>
-          </div>
-
-          <div class="text_frame">
-            <h2>Wireframe / UX / Research</h2>
+            <h2>Wireframe / UX</h2>
             <p><i><b>Defining main onboarding cases</b></i><br><br>Our main two usecases were either people signing up at the store or not at the store. When they are at the store they are mostly trying to make a payment using Origami app. When they are not at the store we can assume that they came across with the app and trying it out where ever they are. We needed to take these into account and come up with an onboarding experience that provides best experience for both situations. </p>
           </div>
           <div class="image_frame">
             <img class="full" src="works_img/onboarding/ux.jpg">
-          </div>
-          <div class="text_frame">
-            <p><i><b>Research on Facebook SDK. User account without email address</b></i><br><br>In order to reduce the dropout rate with the email verification we decided to use Facebook signup as the alternative option to create an account. We also looked into what would be the ideal solution if user doesn't have an email address with their Facebook account as Origami required email for providing the secure payment transaction. We looked into many other apps and analysed the best approach to this problem. The result was that most of the services takes you to the original email address input page and continue by using the usual email signup which seemed to be the ideal solution. Other approach include showing error dialog or some can signup without an email.</p>
-          </div>
-          <div class="image_frame">
-            <img class="full" src="works_img/onboarding/research1.jpg">
           </div>
 
           <div class="text_frame">
@@ -74,11 +76,16 @@
 
           <div class="text_frame">
             <h2>Outcome</h2>
-            <p></p>
+            <p>In the end, our final outcome was designed to solve the problem where we saw major drop-outs while retaining the existing on-boarding flow for fast and smooth signup/signin. We decided that using the Facebook login for the initial iteration works the best to verify whether fallback option works or not and then we could consider more options in the future releases. We worked in a collaborative environment with engineers, data analysts and product manager to create thoughtful product decisions. We also actively seek out feedback from users and admins to stay in touch with how people are using the product day-to-day.</p>
           </div>
           <div class="image_frame">
-            <img class="full" src="works_img/onboarding/.jpg">
+            <img class="full" src="works_img/onboarding/final.png">
           </div>
+          <div class="image_frame">
+            <img class="full" src="works_img/onboarding/spec.png">
+          </div>
+
+
 
 
         </content>
