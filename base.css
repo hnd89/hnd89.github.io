@@ -306,6 +306,11 @@ header{
 	float: right;
 	margin: 35px 90px 35px 35px;
 }
+.center_vid{
+	display: inline-block;
+	max-width: 30%;
+	margin: 0 auto;
+}
 .left{
 	display: inline-block;
 	max-width: 38%;
@@ -380,6 +385,14 @@ header{
 }
 .cover_onboarding{
 	background-image: url("img/cover_onboarding.jpg");
+	background-size: cover;
+	background-position: center center;
+	width: 100%;
+	height: 66vh;
+	margin-top: 60px;
+}
+.cover_pay{
+	background-image: url("img/cover_pay2.png");
 	background-size: cover;
 	background-position: center center;
 	width: 100%;
@@ -462,7 +475,7 @@ header{
 	font-size: 90px;
 }
 .intro{
-	width: 510px;
+	width: 550px;
 	font-family: Playfair;
 	-webkit-font-smoothing: antialiased;
 	font-size: 18px;
