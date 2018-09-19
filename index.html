@@ -10,104 +10,101 @@
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
 </head>
 
+<script>
+document.addEventListener('DOMContentLoaded',function(event){
+  // array with texts to type in typewriter
+  var dataText = [ "Hi, I’m Hiro.", "I Grew up in Australia,", "studied in UK,", "now working on US app from Japan."];
+
+  // type one text in the typwriter
+  // keeps calling itself until the text is finished
+  function typeWriter(text, i, fnCallback) {
+    // chekc if text isn't finished yet
+    if (i < (text.length)) {
+      // add next character to h1
+     document.querySelector(".intro_main").innerHTML = text.substring(0, i+1) +'<span aria-hidden="true"></span>';
+
+      // wait for a while and call this function again for next character
+      setTimeout(function() {
+        typeWriter(text, i + 1, fnCallback)
+      }, 100);
+    }
+    // text finished, call callback if there is a callback function
+    else if (typeof fnCallback == 'function') {
+      // call callback after timeout
+      setTimeout(fnCallback, 700);
+    }
+  }
+  // start a typewriter animation for a text in the dataText array
+   function StartTextAnimation(i) {
+     if (typeof dataText[i] == 'undefined'){
+        setTimeout(function() {
+          StartTextAnimation(0);
+        }, 20000);
+     }
+     // check if dataText[i] exists
+    if (i < dataText[i].length) {
+      // text exists! start typewriter animation
+     typeWriter(dataText[i], 0, function(){
+       // after callback (and whole text has been animated), start next text
+       StartTextAnimation(i + 1);
+     });
+    }
+  }
+  // start the text animation
+  StartTextAnimation(0);
+});
+</script>
+
 <body>
 
-  <div class="container_featured">
+  <container>
+    <header>
+      <div class="header_box">
+        <div class="name">Hiroyuki Noguchi, Designer</div>
+        <div class="home"><a href="index.html">Home</a></div>
+      </div>
+    </header>
 
-      <header>
-        <div class="header_box">
-          <li><a href="index.html">WORK</a><span class="spacer_nav">/</span></li>
-          <li><a href="about.html">ABOUT</a></li>
+    <content>
+      <section class="cover">
+        <div class="intro_main">
+          Hi, I’m Hiro. I Grew up in Australia, studied in UK, and now working on US app from Japan.
         </div>
-      </header>
-
-      <content>
-        &nbsp;
-        <div class="portfolio_title_first">QR pay</div>
-        <div class="subtitle">Origami・2017</div>
-        <div class="portfolio_see"><a href="pay.html">Read More</a></div>
-        <div class="portfolio_obj">
-          <div class="divider_sm"></div>
-          <video controls autoplay loop style="margin-bottom: 100px; margin-top: 35px;" controls muted>
-            <source src="works_img/pay/pay.mp4" type="video/mp4">
-          </video>
+        <div class="intro_sub">
+          I'm currently living in Tokyo and working as a Product designer for a unicorn company <a class="link" href="https://www.mercari.com/" class="link">Mercari</a>. Mercari is a CtoC ecommerce app that focuses on making selling as easy as buying for anyone. I help Mercari expanding across US and globally.
         </div>
-
-        <div class="spacer"></div>
-
-        <div class="portfolio_title_first">Store discovery</div>
-        <div class="subtitle">Origami・2016</div>
-        <div class="portfolio_see"><a href="storediscover.html">Read More</a></div>
-        <div class="portfolio_obj">
-          <div class="divider_sm"></div>
-          <video controls autoplay loop style="margin-bottom: 100px; margin-top: 35px;" controls muted>
-            <source src="works_img/discover/fullplay.mp4" type="video/mp4">
-          </video>
+      </section>
+      <section>
+        <div class="pj_bk">
+          <img src="img/mercari_cover.png">
+          <div class="pj_info">
+            <p class="title">Mercari app</p>
+            <p class="subtitle">Product design 2017 - 2018</p>
+            <p class="para">Mercari is a simple app where people can sell and buy anything.</p>
+            <a class="link" href="">Coming soon</a>
+          </div>
         </div>
-
-        <div class="spacer"></div>
-
-        <div class="portfolio_title">Local store profiles</div>
-        <div class="subtitle">Origami・2016</div>
-        <div class="portfolio_see"><a href="stores.html">Read More</a></div>
-        <div class="portfolio_obj">
-          <div class="divider_sm"></div>
-          <video controls autoplay loop style="margin-bottom: 100px; margin-top: 35px;" controls muted>
-            <source src="works_img/stores/fullplay.mp4" type="video/mp4">
-          </video>
+        <div class="pj_bk">
+          <img src="img/origami_cover.png">
+          <div class="pj_info">
+            <p class="title">Origami app</p>
+            <p class="subtitle">Product design 2015 - 2017</p>
+            <p class="para">Origami is an in-store payment service for connecting consumers and shops.</p>
+            <a class="link" href="">Coming soon</a>
+          </div>
         </div>
+      </section>
+    </content>
 
-        <div class="spacer"></div>
+    <footer>
+      <div class="contact"><a href="mailto:hiroyuki.noguchi7@gmail.com">Say hi 👋</a></div>
+      <div class="cr">© 2018 <b>Hiro Noguchi</b>. All rights reserved.</div>
+    </footer>
+  </container>
 
-        <div class="portfolio_title">On Boarding</div>
-        <div class="subtitle">Origami・2017</div>
-        <div class="portfolio_see"><a href="onboarding.html">Read More</a></div>
-        <div class="portfolio_obj">
-          <div class="divider_sm"></div>
-          <video controls autoplay loop style="margin-bottom: 100px; margin-top: 35px;" controls muted>
-            <source src="works_img/onboarding/temp.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <div class="spacer"></div>
-
-        <!--div class="portfolio_title">Foodriends</div>
-        <div class="subtitle">Personal project・2016</div>
-        <div class="portfolio_see"><a href="foodriends.html">Read More</a></div>
-        <div class="portfolio_obj">
-          <div class="divider_sm"></div>
-          <img src="works_img/foodriends.png">
-        </div>
-
-        <div class="spacer"></div-->
-
-        <div class="portfolio_title">Improving the purchase experience.</div>
-        <div class="subtitle">Origami・2015</div>
-        <div class="portfolio_see"><a href="cart.html">Read More</a></div>
-        <div class="portfolio_obj">
-          <div class="divider_sm"></div>
-          <video controls autoplay loop style="margin-bottom: 100px; margin-top: 35px;" controls muted>
-            <source src="works_img/cart/cart_flow.mp4" type="video/mp4">
-          </video>
-        </div>
-
-        <div class="spacer"></div>
-
-        <div class="portfolio_title">Online store profiles</div>
-        <div class="subtitle">Origami・2015</div>
-        <div class="portfolio_see"><a href="profile.html">Read More</a></div>
-        <div class="portfolio_obj">
-          <div class="divider_sm"></div>
-          <img src="works_img/profile.png">
-        </div>
-
-
-        <div class="spacer"></div>
-
-
-
-      </content>
-
-    </div>
-
+  <script type="text/javascript">
+  $(function() {
+      $(".intro_main").css("opacity", 1 - $(window).scrollTop() / 150);
+  });
+  </script>
 </body>
