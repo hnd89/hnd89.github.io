@@ -153,6 +153,7 @@ body {
 		.intro_main {
 			font-size: 180%;
 			line-height: 118%;
+			height: 140px;
 		}
 
 		.intro_sub {
@@ -190,7 +191,7 @@ body {
 		}
 
 		.title {
-			font-size: 140%;
+			font-size: 130%;
 			padding-bottom: 0px;
 		}
 
