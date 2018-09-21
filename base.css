@@ -164,9 +164,8 @@ footer {
 		}
 
 		.intro_sub {
-			font-family: 'Martel-light';
-			font-size: 16px;
-			line-height: 26px;
+			font-size: 20px;
+			line-height: 30px;
 			padding-top: 160px;
 			max-width: 100%;
 		}
@@ -206,7 +205,8 @@ footer {
 		}
 
 		.para {
-			font-size: 18px;
+			font-size: 20px;
+			line-height: 30px;
 			width: 100%;
 			padding-bottom: 40px;
 		}
