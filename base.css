@@ -47,7 +47,7 @@ li{
 }
 
 body {
-	width: 94%;
+	width: 90%;
 	margin: 0 auto;
 }
 
@@ -57,8 +57,12 @@ header {
 	font-family: 'Martel-light';
 }
 
+.mb {
+	display: none;
+}
+
 .cover {
-	padding-bottom: 200px;
+	padding-bottom: 170px;
 	opacity: 1;
 }
 
@@ -91,9 +95,8 @@ header {
 }
 
 .pj_bk {
-	width: 94vw;
 	margin-top: 60px;
-	background-color: #F8F8FA;
+	border-bottom: 1px solid #efefef;
 }
 
 .pj_bk img {
@@ -108,7 +111,7 @@ header {
 }
 
 .pj_info {
-	padding: 200px 0 80px 60px;
+	padding: 200px 0 80px 0;
 }
 
 .title {
@@ -145,4 +148,77 @@ footer {
 	font-family: Martel-light;
 	font-size: 12px;
 	padding-bottom: 60px;
+}
+
+
+@media only screen
+  and (min-device-width: 375px)
+  and (max-device-width: 812px)
+  and (-webkit-min-device-pixel-ratio: 3)
+  and (orientation: portrait) {
+		.intro_main {
+			font-size: 130px;
+			line-height: 140px;
+			padding-top: 144px;
+		}
+
+		.intro_sub {
+			font-size: 18px;
+			line-height: 60px;
+			max-width: 1000px;
+			padding-top: 130px;
+		}
+
+		.home {
+			display: none;
+		}
+
+		.name {
+			font-size: 40px;
+			padding-top: 20px;
+		}
+
+		.mb {
+			display: block;
+		}
+
+		.dt {
+			display: none;
+		}
+
+		.pj_bk img {
+			width: 88%;
+		}
+
+		.pj_bk img:hover {
+			transform: scale(1.1);
+		}
+
+		.title {
+			font-size: 52px;
+		}
+
+		.subtitle {
+			font-size: 12px;
+			padding: 10px 0 60px 0;
+		}
+
+		.para {
+			font-size: 14px;
+			width: 100%;
+			padding-bottom: 40px;
+		}
+
+		.pj_bk {
+			margin-top: 120px;
+			border-bottom: 1px solid ##e2e2e2;
+		}
+
+		.contact {
+			font-family: Martel-light;
+			font-size: 54px;
+			width: auto;
+			text-align: center;
+			padding: 120px 0 240px 0;
+		}
 }
