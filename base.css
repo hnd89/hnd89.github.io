@@ -8,7 +8,6 @@ body,html{
 	background-color: #ffffff;
 	font-family: Roboto-light;
 	-webkit-font-smoothing: antialiased !important;
-	line-height: 31px;
 }
 *{
 	margin:0;
@@ -27,7 +26,6 @@ li{
 .link {
 	color: #0ff3ac;
 }
-
 
 /*FONT*/
 @font-face {
@@ -48,6 +46,8 @@ li{
 }
 
 body {
+	font-size: 16px;
+	line-height: 28px;
 	width: 90%;
 	margin: 0 auto;
 }
@@ -81,7 +81,7 @@ header {
 
 .intro_main {
 	font-family: 'Open-sans-semibold';
-	font-size: 90px;
+	font-size: 600%;
 	line-height: 110px;
 	padding: 60px 0 80px 0;
 	color: #212121;
@@ -89,7 +89,6 @@ header {
 
 .intro_sub {
 	font-family: 'Martel-light';
-	font-size: 16px;
 	padding-top: 60px;
 	max-width: 600px;
 }
@@ -115,18 +114,19 @@ header {
 
 .title {
 	font-family: Martel-bold;
-	font-size: 20px;
+	font-size: 140%;
+	padding-bottom: 4px;
 }
 
 .subtitle {
 	font-family: Martel-light;
-	font-size: 14px;
+	font-size: 90%;
 	padding-bottom: 20px;
 }
 
 .para {
 	font-family: Open-sans-regular;
-	font-size: 14px;
+	font-size: 90%;
 	color: #7B7B7B;
 	padding-bottom: 20px;
 }
@@ -137,14 +137,14 @@ footer {
 
 .contact {
 	font-family: Martel-light;
-	font-size: 20px;
+	font-size: ;
 	text-align: center;
 	padding-bottom: 80px;
 }
 
 .cr {
 	font-family: Martel-light;
-	font-size: 12px;
+	font-size: 80%;
 	padding-bottom: 60px;
 }
 
@@ -154,12 +154,82 @@ footer {
  and (max-device-width: 600px)
  and (orientation : portrait) {
 
+	 body {
+	 	font-size: 20px;
+		line-height: 36px;
+	 }
+
+		.intro_main {
+			font-size: 700%;
+			line-height: 118%;
+		}
+
+		.intro_sub {
+			font-size: 90%;
+			line-height: 150%;
+			padding-top: 160px;
+			max-width: 100%;
+		}
+
+		.home {
+			display: none;
+		}
+
+		.name {
+			font-size: 100%;
+			padding-top: 20px;
+		}
+
 		.mb {
 			display: block;
 		}
 
 		.dt {
 			display: none;
+		}
+
+		.pj_bk img {
+			width: 88%;
+			padding-top: 140px;
+		}
+
+		.pj_bk img:hover {
+			transform: scale(1.1);
+		}
+
+		.title {
+			font-size: 240%;
+			padding-bottom: 16px;
+		}
+
+		.subtitle {
+			padding: 10px 0 60px 0;
+		}
+
+		.para {
+			width: 100%;
+			padding-bottom: 40px;
+		}
+
+		.pj_bk {
+			margin-top: 120px;
+			border-bottom: 1px solid ##e2e2e2;
+		}
+
+		.contact {
+			font-size: 240%;
+			width: auto;
+			text-align: center;
+			padding: 120px 0 240px 0;
+		}
+
+		.cr {
+			font-size: 60%;
+			padding-bottom: 60px;
+		}
+
+		.pj_info {
+			padding: 240px 0 80px 0;
 		}
 
 }
