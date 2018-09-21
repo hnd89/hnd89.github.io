@@ -32,7 +32,7 @@ li{
 }
 @font-face {
     font-family: Martel-bold;
-    src: url(font/Martel-Bold.ttf);
+    src: url(font/Martel-DemiBold.ttf);
 }
 @font-face {
     font-family: Open-sans-regular;
@@ -125,12 +125,8 @@ body {
 	padding-bottom: 20px;
 }
 
-.footer {
-	padding: 120px 0 0 0;
-}
-
 .contact {
-	font-size: 140%;
+	font-size: 200%;
 	font-family: Martel-light;
 	font-size: ;
 	text-align: center;
@@ -210,7 +206,7 @@ body {
 		}
 
 		.contact {
-			font-size: 240%;
+			font-size: 400%;
 			width: auto;
 			text-align: center;
 			padding: 120px 0 240px 0;
