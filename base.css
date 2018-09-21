@@ -83,17 +83,15 @@ header {
 	font-family: 'Open-sans-semibold';
 	font-size: 90px;
 	line-height: 110px;
-	padding: 60px 0 20px 0;
-	height: 200px;
+	padding: 60px 0 80px 0;
 	color: #212121;
 }
 
 .intro_sub {
 	font-family: 'Martel-light';
 	font-size: 16px;
-	padding-top: 80px;
+	padding-top: 60px;
 	max-width: 600px;
-	min-width: 300px;
 }
 
 .pj_bk {
@@ -129,7 +127,6 @@ header {
 .para {
 	font-family: Open-sans-regular;
 	font-size: 14px;
-	width: 600px;
 	color: #7B7B7B;
 	padding-bottom: 20px;
 }
@@ -152,30 +149,10 @@ footer {
 }
 
 
-@media only screen
-  and (min-device-width: 375px)
-  and (max-device-width: 812px)
-  and (-webkit-min-device-pixel-ratio: 3)
-  and (orientation: portrait) {
-		.intro_main {
-			font-size: 130px;
-			padding-top: 144px;
-		}
-
-		.intro_sub {
-			font-size: 20px;
-			padding-top: 160px;
-			max-width: 100%;
-		}
-
-		.home {
-			display: none;
-		}
-
-		.name {
-			font-size: 40px;
-			padding-top: 20px;
-		}
+/*IPHONE*/
+@media only screen and (min-device-width: 375px)
+ and (max-device-width: 600px)
+ and (orientation : portrait) {
 
 		.mb {
 			display: block;
@@ -185,44 +162,4 @@ footer {
 			display: none;
 		}
 
-		.pj_bk img {
-			width: 88%;
-			padding-top: 140px;
-		}
-
-		.pj_bk img:hover {
-			transform: scale(1.1);
-		}
-
-		.title {
-			font-size: 52px;
-		}
-
-		.subtitle {
-			font-size: 18px;
-			padding: 10px 0 60px 0;
-		}
-
-		.para {
-			font-size: 20px;
-			width: 100%;
-			padding-bottom: 40px;
-		}
-
-		.pj_bk {
-			margin-top: 120px;
-			border-bottom: 1px solid ##e2e2e2;
-		}
-
-		.contact {
-			font-size: 54px;
-			width: auto;
-			text-align: center;
-			padding: 120px 0 240px 0;
-		}
-
-		.cr {
-			font-size: 14px;
-			padding-bottom: 60px;
-		}
 }
