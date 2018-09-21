@@ -146,18 +146,17 @@ body {
  and (orientation : portrait) {
 
 	 body {
-	 	font-size: 20px;
+	 	font-size: 18px;
 		line-height: 36px;
 	 }
 
 		.intro_main {
-			font-size: 400%;
+			font-size: 180%;
 			line-height: 118%;
 		}
 
 		.intro_sub {
 			line-height: 150%;
-			padding-top: 100px;
 			max-width: 100%;
 		}
 
@@ -165,8 +164,13 @@ body {
 			display: none;
 		}
 
+		.cover {
+			padding-bottom: 10px;
+		}
+
+
 		.name {
-			padding-top: 20px;
+			padding-top: 10px;
 		}
 
 		.mb {
@@ -179,7 +183,6 @@ body {
 
 		.pj_bk img {
 			width: 88%;
-			padding-top: 140px;
 		}
 
 		.pj_bk img:hover {
@@ -206,8 +209,8 @@ body {
 		}
 
 		.contact {
-			font-size: 400%;
-			padding: 120px 0 240px 0;
+			font-size: 200%;
+			padding: 60px 0 240px 0;
 		}
 
 		.cr {
@@ -217,11 +220,6 @@ body {
 
 		.pj_info {
 			padding: 240px 0 80px 0;
-		}
-
-		.name {
-			float: none;
-			padding-top: 80px;
 		}
 
 }
