@@ -89,6 +89,7 @@ header {
 .intro_sub {
 	font-family: 'Martel-light';
 	font-size: 16px;
+	line-height: 26px;
 	padding-top: 80px;
 	max-width: 600px;
 	min-width: 300px;
@@ -163,10 +164,11 @@ footer {
 		}
 
 		.intro_sub {
-			font-size: 18px;
-			line-height: 60px;
-			max-width: 1000px;
-			padding-top: 130px;
+			font-family: 'Martel-light';
+			font-size: 16px;
+			line-height: 26px;
+			padding-top: 160px;
+			max-width: 100%;
 		}
 
 		.home {
@@ -199,12 +201,12 @@ footer {
 		}
 
 		.subtitle {
-			font-size: 12px;
+			font-size: 18px;
 			padding: 10px 0 60px 0;
 		}
 
 		.para {
-			font-size: 14px;
+			font-size: 18px;
 			width: 100%;
 			padding-bottom: 40px;
 		}
@@ -215,10 +217,14 @@ footer {
 		}
 
 		.contact {
-			font-family: Martel-light;
 			font-size: 54px;
 			width: auto;
 			text-align: center;
 			padding: 120px 0 240px 0;
+		}
+
+		.cr {
+			font-size: 14px;
+			padding-bottom: 60px;
 		}
 }
