@@ -4,7 +4,7 @@ body,html{
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	color: #404041;
+	color: #191919;
 	background-color: #ffffff;
 }
 *{
@@ -35,12 +35,16 @@ li{
     src: url(font/Martel-DemiBold.ttf);
 }
 @font-face {
-    font-family: Open-sans-regular;
-    src: url(font/OpenSans-Regular.ttf);
+    font-family: AtlasGroteskWeb-Regular;
+    src: url(font/AtlasGroteskWeb-Regular.ttf);
 }
 @font-face {
-    font-family: Open-sans-semibold;
-    src: url(font/OpenSans-SemiBold.ttf);
+    font-family: AtlasGroteskWeb-Bold;
+    src: url(font/AtlasGroteskWeb-Bold.ttf);
+}
+@font-face {
+    font-family: AtlasGroteskWeb-Black;
+    src: url(font/AtlasGroteskWeb-Black.ttf);
 }
 
 body {
@@ -65,25 +69,19 @@ body {
 	padding: 20px 0;
 }
 
-.home {
-	float: right;
-}
-
 .name {
 	float: left;
 }
 
 .intro_main {
-	font-family: 'Open-sans-semibold';
-	font-size: 600%;
-	line-height: 110px;
+	font-family: 'AtlasGroteskWeb-Black';
+	font-size: 360%;
+	line-height: 120%;
 	padding: 60px 0 80px 0;
-	color: #212121;
 }
 
 .intro_sub {
 	font-family: 'Martel-light';
-	padding-top: 60px;
 	max-width: 600px;
 }
 
@@ -107,19 +105,19 @@ body {
 }
 
 .title {
-	font-family: Martel-bold;
+	font-family: 'Martel-bold';
 	font-size: 140%;
 	padding-bottom: 4px;
 }
 
 .subtitle {
-	font-family: Martel-light;
+	font-family: 'Martel-light';
 	font-size: 90%;
 	padding-bottom: 20px;
 }
 
 .para {
-	font-family: Open-sans-regular;
+	font-family: 'AtlasGroteskWeb-Regular';
 	font-size: 90%;
 	color: #7B7B7B;
 	padding-bottom: 20px;
@@ -127,16 +125,18 @@ body {
 
 .contact {
 	font-size: 200%;
-	font-family: Martel-light;
-	font-size: ;
-	text-align: center;
-	padding-bottom: 80px;
+	padding-top: 40px;
+	font-family: 'Martel-light';
+}
+.contact:hover {
+	opacity: 0.5;
 }
 
 .cr {
-	font-family: Martel-light;
+	font-family: 'Martel-light';
 	font-size: 80%;
 	padding-bottom: 60px;
+	color: #7B7B7B;
 }
 
 
@@ -157,7 +157,7 @@ body {
 
 		.intro_sub {
 			line-height: 150%;
-			padding-top: 160px;
+			padding-top: 100px;
 			max-width: 100%;
 		}
 
@@ -207,8 +207,6 @@ body {
 
 		.contact {
 			font-size: 400%;
-			width: auto;
-			text-align: center;
 			padding: 120px 0 240px 0;
 		}
 
@@ -219,10 +217,6 @@ body {
 
 		.pj_info {
 			padding: 240px 0 80px 0;
-		}
-
-		.home {
-			float: none;
 		}
 
 		.name {
