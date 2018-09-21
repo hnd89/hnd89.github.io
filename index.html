@@ -58,12 +58,11 @@ document.addEventListener('DOMContentLoaded',function(event){
 <body>
 
   <container>
-    <header>
-      <div class="header_box">
-        <p class="name">Hiroyuki Noguchi, Designer</p>
-        <p class="home"><a href="index.html">Home</a></p>
-      </div>
-    </header>
+
+    <div class="header">
+      <p class="name">Hiroyuki Noguchi, Designer</p>
+      <p class="home"><a href="index.html">Home</a></p>
+    </div>
 
     <content>
       <section class="cover">
@@ -97,16 +96,11 @@ document.addEventListener('DOMContentLoaded',function(event){
         </div>
       </section>
     </content>
-
-    <footer>
+    <div class="footer">
       <div class="contact"><a href="mailto:hiroyuki.noguchi7@gmail.com">Say hi 👋</a></div>
       <div class="cr">© 2018 <b>Hiro Noguchi</b>. All rights reserved.</div>
-    </footer>
+    </div>
+
   </container>
 
-  <script type="text/javascript">
-  $(function() {
-      $(".intro_main").css("opacity", 1 - $(window).scrollTop() / 150);
-  });
-  </script>
 </body>

@@ -6,8 +6,6 @@ body,html{
 	width: 100%;
 	color: #404041;
 	background-color: #ffffff;
-	font-family: Roboto-light;
-	-webkit-font-smoothing: antialiased !important;
 }
 *{
 	margin:0;
@@ -50,12 +48,7 @@ body {
 	line-height: 28px;
 	width: 90%;
 	margin: 0 auto;
-}
-
-header {
-	height: 60px;
-	margin: 0 auto;
-	font-family: 'Martel-light';
+	-webkit-font-smoothing: antialiased !important;
 }
 
 .mb {
@@ -67,7 +60,8 @@ header {
 	opacity: 1;
 }
 
-.header_box {
+.header {
+	font-family: Martel-light;
 	padding: 20px 0;
 }
 
@@ -76,7 +70,7 @@ header {
 }
 
 .name {
-	display: inline-block;
+	float: left;
 }
 
 .intro_main {
@@ -131,11 +125,12 @@ header {
 	padding-bottom: 20px;
 }
 
-footer {
+.footer {
 	padding: 120px 0 0 0;
 }
 
 .contact {
+	font-size: 140%;
 	font-family: Martel-light;
 	font-size: ;
 	text-align: center;
@@ -165,7 +160,6 @@ footer {
 		}
 
 		.intro_sub {
-			font-size: 90%;
 			line-height: 150%;
 			padding-top: 160px;
 			max-width: 100%;
@@ -176,7 +170,6 @@ footer {
 		}
 
 		.name {
-			font-size: 100%;
 			padding-top: 20px;
 		}
 
@@ -230,6 +223,15 @@ footer {
 
 		.pj_info {
 			padding: 240px 0 80px 0;
+		}
+
+		.home {
+			float: none;
+		}
+
+		.name {
+			float: none;
+			padding-top: 80px;
 		}
 
 }
