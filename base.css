@@ -8,6 +8,7 @@ body,html{
 	background-color: #ffffff;
 	font-family: Roboto-light;
 	-webkit-font-smoothing: antialiased !important;
+	line-height: 165%;
 }
 *{
 	margin:0;
@@ -81,15 +82,14 @@ header {
 .intro_main {
 	font-family: 'Open-sans-semibold';
 	font-size: 90px;
-	line-height: 100px;
-	padding-top: 20px;
+	line-height: 130%;
+	padding: 60px 0 120px 0;
 	color: #212121;
 }
 
 .intro_sub {
 	font-family: 'Martel-light';
 	font-size: 16px;
-	line-height: 26px;
 	padding-top: 80px;
 	max-width: 600px;
 	min-width: 300px;
@@ -159,13 +159,11 @@ footer {
   and (orientation: portrait) {
 		.intro_main {
 			font-size: 130px;
-			line-height: 140px;
 			padding-top: 144px;
 		}
 
 		.intro_sub {
 			font-size: 20px;
-			line-height: 30px;
 			padding-top: 160px;
 			max-width: 100%;
 		}
@@ -189,6 +187,7 @@ footer {
 
 		.pj_bk img {
 			width: 88%;
+			padding-top: 140px;
 		}
 
 		.pj_bk img:hover {
@@ -206,7 +205,6 @@ footer {
 
 		.para {
 			font-size: 20px;
-			line-height: 30px;
 			width: 100%;
 			padding-bottom: 40px;
 		}
