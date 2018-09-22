@@ -179,7 +179,8 @@ body {
 		}
 
 		.intro_sub {
-			line-height: 150%;
+			font-size: 90%;
+			line-height: 144%;
 			max-width: 100%;
 		}
 
