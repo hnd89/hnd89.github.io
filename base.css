@@ -17,7 +17,8 @@ a{
 	color: #404041;
 }
 a:hover{
-	color: #9B9B9B;
+	color: #e90ff3;
+	border: 1px solid #e90ff3;
 }
 li{
 	list-style: none;
