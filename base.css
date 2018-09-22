@@ -6,6 +6,7 @@ body,html{
 	width: 100%;
 	color: #191919;
 	background-color: #ffffff;
+	font-family: 'AtlasGroteskWeb-Regular';
 }
 *{
 	margin:0;
@@ -22,6 +23,13 @@ li{
 	list-style: none;
 }
 .link {
+	color: #0ff3ac;
+	padding: 8px 18px;
+	border: 1px solid #0ff3ac;
+	border-radius: 25px;
+	font-size: 80%;
+}
+.link_nor {
 	color: #0ff3ac;
 }
 
