@@ -154,6 +154,7 @@ body {
 
 .pin {
 	opacity: 0.7;
+	display: inline-block;
 }
 
 .location {
