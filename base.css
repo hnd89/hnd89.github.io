@@ -115,13 +115,7 @@ body {
 .title {
 	font-family: 'Martel-bold';
 	font-size: 140%;
-	padding-bottom: 4px;
-}
-
-.subtitle {
-	font-family: 'Martel-light';
-	font-size: 90%;
-	padding-bottom: 20px;
+	padding-bottom: 10px;
 }
 
 .para {
@@ -200,13 +194,8 @@ body {
 
 		.title {
 			font-size: 130%;
-			padding-bottom: 0px;
 		}
-
-		.subtitle {
-			font-size: 80%;
-		}
-
+		
 		.para {
 			width: 100%;
 			line-height: 140%;
