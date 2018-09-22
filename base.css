@@ -18,7 +18,6 @@ a{
 }
 a:hover{
 	color: #e90ff3;
-	border: 1px solid #e90ff3;
 }
 li{
 	list-style: none;
@@ -29,6 +28,9 @@ li{
 	border: 1px solid #0ff3ac;
 	border-radius: 25px;
 	font-size: 80%;
+}
+.link:hover {
+	border: 1px solid #e90ff3;
 }
 .link_nor {
 	color: #0ff3ac;
