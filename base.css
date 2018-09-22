@@ -65,7 +65,7 @@ body {
 }
 
 .header {
-	font-family: Martel-light;
+	font-family: 'Martel-light';
 	padding: 20px 0;
 }
 
@@ -221,6 +221,16 @@ body {
 
 		.pj_info {
 			padding: 80px 0 80px 0;
+		}
+
+		.pj_bk img {
+			width: 96%;
+			display: block;
+			margin: 0 auto;
+			transition: all 0.7s ease-in-out;
+		}
+		.pj_bk img:hover {
+			transform: scale(1);
 		}
 
 }
