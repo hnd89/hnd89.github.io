@@ -4,7 +4,7 @@ body,html{
 	margin: 0;
 	height: 100%;
 	width: 100%;
-	color: #191919;
+	color: #4a4a4a;
 	background-color: #ffffff;
 	font-family: 'AtlasGroteskWeb-Regular';
 }
@@ -38,14 +38,6 @@ li{
 
 /*FONT*/
 @font-face {
-    font-family: Martel-light;
-    src: url(font/Martel-Light.ttf);
-}
-@font-face {
-    font-family: Martel-bold;
-    src: url(font/Martel-DemiBold.ttf);
-}
-@font-face {
     font-family: AtlasGroteskWeb-Regular;
     src: url(font/AtlasGroteskWeb-Regular.ttf);
 }
@@ -76,7 +68,6 @@ body {
 }
 
 .header {
-	font-family: 'Martel-light';
 	padding: 20px 0;
 }
 
@@ -92,7 +83,7 @@ body {
 }
 
 .intro_sub {
-	font-family: 'Martel-light';
+	font-size: 90%;
 	max-width: 600px;
 }
 
@@ -116,7 +107,7 @@ body {
 }
 
 .title {
-	font-family: 'Martel-bold';
+	font-family: 'AtlasGroteskWeb-Bold';
 	font-size: 140%;
 	padding-bottom: 10px;
 }
@@ -124,24 +115,21 @@ body {
 .para {
 	font-family: 'AtlasGroteskWeb-Regular';
 	font-size: 90%;
-	color: #7B7B7B;
 	padding-bottom: 20px;
 }
 
 .contact {
-	font-size: 200%;
+	font-size: 160%;
 	padding-bottom: 40px;
-	font-family: 'Martel-light';
 }
 .contact:hover {
 	opacity: 0.5;
 }
 
 .cr {
-	font-family: 'Martel-light';
-	font-size: 90%;
+	font-size: 80%;
 	padding-bottom: 60px;
-	color: #7B7B7B;
+	opacity: 0.6;
 }
 
 .fade {
@@ -178,13 +166,13 @@ body {
 
 		.intro_main {
 			font-size: 180%;
-			line-height: 118%;
-			height: 100px;
+			line-height: 140%;
+			height: 90px;
 		}
 
 		.intro_sub {
 			font-size: 90%;
-			line-height: 144%;
+			line-height: 166%;
 			max-width: 100%;
 		}
 
@@ -225,7 +213,7 @@ body {
 
 		.pj_bk {
 			margin: 90px 0 90px 0;
-			border-bottom: 1px solid ##e2e2e2;
+			border-bottom: 1px solid #e2e2e2;
 		}
 
 		.contact {
