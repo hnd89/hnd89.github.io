@@ -85,6 +85,7 @@ body {
 .intro_sub {
 	font-size: 90%;
 	max-width: 600px;
+	opacity: 0.6;
 }
 
 .pj_bk {
@@ -116,6 +117,7 @@ body {
 	font-family: 'AtlasGroteskWeb-Regular';
 	font-size: 90%;
 	padding-bottom: 20px;
+	opacity: 0.6;
 }
 
 .contact {
@@ -145,12 +147,12 @@ body {
 }
 
 .pin {
-	opacity: 0.7;
 	display: inline-block;
 }
 
 .location {
 	padding-top: 30px;
+	opacity: 0.6;
 }
 
 
@@ -181,7 +183,7 @@ body {
 		}
 
 		.name {
-			font-size: 120%;
+			font-size: 100%;
 			padding-top: 10px;
 		}
 
