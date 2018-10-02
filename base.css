@@ -152,7 +152,10 @@ body {
 
 .location {
 	padding-top: 30px;
-	opacity: 0.6;
+}
+
+.current {
+	font-family: 'AtlasGroteskWeb-Bold';
 }
 
 
