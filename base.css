@@ -78,7 +78,7 @@ footer {
 }
 .footer_content {
 	padding: 100px 60px;
-	max-width: 1230px;
+	max-width: 1140px;
 	margin: 0 auto;
 	background-color: #fff;
 }
@@ -187,7 +187,7 @@ body {
 	margin: 0 auto;
 }
 .cover {
-	max-width: 1230px;
+	max-width: 1140px;
 	padding: 100px 60px 260px 60px;
 	margin: 0 auto;
 }
@@ -198,7 +198,7 @@ body {
 	line-height: 92%;
 	padding: 60px 0 80px 0;
 	color: #fff;
-	height: 500px;
+	height: 560px;
 }
 .intro_sub {
 	font-family: 'Theinhardt-Light';
@@ -213,7 +213,7 @@ body {
 	background-color: #fff;
 }
 .work_one_content {
-	max-width: 1230px;
+	max-width: 1140px;
 	margin: 0 auto;
 	padding: 120px 60px;
 	background-color: #fff;
@@ -249,7 +249,7 @@ body {
 	background-color: #000;
 }
 .work_two_content {
-	max-width: 1230px;
+	max-width: 1140px;
 	margin: 0 auto;
 	padding: 120px 60px;
 	background-color: #000;
