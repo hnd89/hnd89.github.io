@@ -9,8 +9,9 @@
 <link href='http://fonts.googleapis.com/css?family=Old+Standard+TT:400,400italic,700' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=PT+Serif' rel='stylesheet' type='text/css'>
 <link href='http://fonts.googleapis.com/css?family=Josefin+Sans' rel='stylesheet' type='text/css'>
+<script type="text/javascript" src="http://code.jquery.com/jquery-1.7.1.min.js"></script>
+<script type="text/javascript" src="scrollanimation.js"></script>
 </head>
-
 <script>
 var TxtType = function(el, toRotate, period) {
         this.toRotate = toRotate;
@@ -35,7 +36,7 @@ var TxtType = function(el, toRotate, period) {
         this.el.innerHTML = '<span class="wrap">'+this.txt+'</span>';
 
         var that = this;
-        var delta = 100 - Math.random() * 100;
+        var delta = 200 - Math.random() * 30;
 
         if (this.isDeleting) { delta /= 2; }
 
@@ -75,67 +76,30 @@ var TxtType = function(el, toRotate, period) {
   <container class="home">
 
     <header>
-      <div class="header_box">
-        <a href="about.html">About Hiro —</a>
+      <div class="hero_img">
+        <img src="img/me.jpg">
       </div>
+      <a href="index.html" class="close-container">
+        <div class="leftright"></div>
+        <div class="rightleft"></div>
+      </a>
     </header>
 
 
     <content>
       <section class="cover">
-        <div class="intro_main">
-          <p>—What's up?</p>
-          <p style="display:inline">I</p>
-          <a class="typewrite" data-period="2000" data-type='[ "grew up in Australia.", "studied design at Saint Martins UK.", "help Mercari grow in US." ]'></a><span class="borderleft"></span>
+        <div class="intro_main_about">
+          <p>—Hello</p>
+          <p style="display:inline"></p>
+          <a class="typewrite" data-period="2000" data-type='[ "my name is Hiro.", "nice to meet you." ]'></a><span class="borderleft"></span>
         </div>
-        <div class="intro_sub">
-          I'm currently working across Palo Alto and Tokyo as a Product designer for a unicorn start up <a href="https://www.mercari.com/">Mercari</a>. Mercari is a CtoC ecommerce app that makes selling as easy as buying for anyone. I help Mercari grow in US and globally.
-        </div>
-      </section>
-
-      <section class="work_one">
-        <div class="work_one_content">
-          <div class="text_one_box">
-            <span><a href="https://www.mercari.com/" target=”_blank”>Mercari app</a></span> — Simple app where people can sell and buy anything.
-          </div>
-          <div class="see_all_one">
-            SEE INDIVIDUAL PROJECT/PROCESS ⟶
-          </div>
-          <div class="work_one_box">
-            <img src="img/work_one.png">
-          </div>
-        </div>
-      </section>
-
-      <section class="work_two">
-        <div class="work_two_content">
-          <div class="text_two_box">
-            <span><a href="https://origami.com/en/" target=”_blank”>Origami app</a></span> — In-store payment service for connecting consumers and shops.
-          </div>
-          <div class="see_all_two">
-            SEE INDIVIDUAL PROJECT/PROCESS ⟶
-          </div>
-          <div class="work_two_box">
-            <img src="img/work_two.png">
-          </div>
-        </div>
-      </section>
-
-    </content>
-
-    <footer>
-      <div class="footer_content">
-        <div class="footer_box">
-          I believe that good design is a combination of engineering, business goal, product vision, and most importantly the people who use them. Design influences every aspect of our lives and it should make experiences emotionally engaging and seamless. We designers have the ability to make people's living better by bridging the gap between machine and human. <br><br><br><span>— Thank you for watching!</span>
+        <div class="intro_sub_about">
+          As a child, I naturally had the curiousity for everything I interact with and constantly asking question which surely annoyed people around me. When I was at the age of 10 I moved to Perth, a small town of Australia where I met people around the world and experienced multicultural environment.<br><br>After leaving high school I decided to study abroad to learn even deeper in design and joined <a href="https://www.arts.ac.uk/colleges/central-saint-martins/about-csm" target=”_blank”>Central Saint Martins</a> in London a place where taught me to think out side the box, and interact with passionate students from all over the world.<br><br>I'm currently rollin' full time with <a href="https://www.mercari.com/" target=”_blank”>Mercari</a> US team and helping other start up to grow and build their product on my spare time. If you are interested <a href="mailto:name@email.com" target=”_blank”>give me a shout</a>.
         </div><br><br>
-        <a href="mailto:name@email.com" class="contact">
-          GET IN TOUCH ⟶
+        <a href="https://www.linkedin.com/in/hiroyukinoguchi/" target=”_blank” class="contact">
+          SEE RESUME ⟶
         </a>
-        <div class="cr">
-          © 2018 Hiro Noguchi Design All rights reserved.
-        </div>
-      </div>
-    </footer>
+      </section>
 
 
   </container>

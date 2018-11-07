@@ -2,11 +2,9 @@
 /*GENERAL*/
 body,html{
 	margin: 0;
-	height: 100%;
-	width: 100%;
-	color: #4a4a4a;
-	background-color: #ffffff;
-	font-family: 'AtlasGroteskWeb-Regular';
+	-webkit-font-smoothing: antialiased !important;
+	background-color: #000;
+	font-family: Theinhardt-Regular;
 }
 *{
 	margin:0;
@@ -14,235 +12,329 @@ body,html{
 }
 a{
 	text-decoration: none;
-	color: #404041;
+	color: #ec9fc8;
 }
 a:hover{
-	color: #e90ff3;
+	color: #B2FAC7;
+}
+.typewrite:hover {
+	text-decoration: none;
 }
 li{
 	list-style: none;
 }
-.link {
-	color: #0ff3ac;
-	padding: 8px 18px;
-	border: 1px solid #0ff3ac;
-	border-radius: 25px;
-	font-size: 80%;
+.borderleft{
+	border-right: 20px solid #fff;
+	animation: blinker 0.8s linear infinite;
 }
-.link:hover {
-	border: 1px solid #e90ff3;
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
-.link_nor {
-	color: #0ff3ac;
-}
+
+
 
 /*FONT*/
 @font-face {
-    font-family: AtlasGroteskWeb-Regular;
-    src: url(font/AtlasGroteskWeb-Regular.ttf);
+    font-family: Theinhardt-Bold;
+    src: url(font/Theinhardt-Bold.ttf);
 }
 @font-face {
-    font-family: AtlasGroteskWeb-Bold;
-    src: url(font/AtlasGroteskWeb-Bold.ttf);
+    font-family: Theinhardt-Heavy;
+    src: url(font/Theinhardt-Heavy.ttf);
 }
 @font-face {
-    font-family: AtlasGroteskWeb-Black;
-    src: url(font/AtlasGroteskWeb-Black.ttf);
+    font-family: Theinhardt-Regular;
+    src: url(font/Theinhardt-Regular.ttf);
+}
+@font-face {
+    font-family: Theinhardt-Light;
+    src: url(font/Theinhardt-Light.ttf);
+}
+@font-face {
+    font-family: MaisonNeue-Mono;
+    src: url(font/MaisonNeue-Mono.ttf);
 }
 
-body {
-	font-size: 16px;
-	line-height: 28px;
-	width: 90%;
+/*HEADER*/
+.header_box a{
+	font-family: Theinhardt-Bold;
+	font-size: 150%;
+  right: -35px;
+  top: 80px;
+	position: fixed;
+	-webkit-transform: rotate(90deg);
+	-moz-transform: rotate(90deg);
+}
+
+
+
+/*FOOTER*/
+footer {
+	width: 100%;
+	color: #292a2c;
+	background-color: #fff;
+}
+.footer_content {
+	padding: 100px 60px;
+	max-width: 1230px;
 	margin: 0 auto;
-	-webkit-font-smoothing: antialiased !important;
+	background-color: #fff;
 }
-
-.mb {
-	display: none;
-}
-
-.cover {
-	padding-bottom: 170px;
-	opacity: 1;
-}
-
-.header {
-	padding: 20px 0;
-}
-
-.name {
-	float: left;
-}
-
-.intro_main {
-	font-family: 'AtlasGroteskWeb-Black';
-	font-size: 360%;
-	line-height: 120%;
-	padding: 60px 0 80px 0;
-}
-
-.intro_sub {
-	font-size: 90%;
-	max-width: 600px;
-	opacity: 0.6;
-}
-
-.pj_bk {
-	margin: 100px 0 160px 0;
-	border-bottom: 1px solid #efefef;
-}
-
-.pj_bk img {
-	width: 75%;
-	display: block;
+.footer_box {
 	margin: 0 auto;
-	transition: all 0.7s ease-in-out;
+	font-family: 'Theinhardt-Light';
+	font-size: 200%;
+	line-height: 140%;
+	background-color: #fff;
 }
-.pj_bk img:hover {
-	transform: scale(1.04);
+.footer_box span {
+	font-family: 'Theinhardt-Bold';
 }
-
-.pj_info {
-	padding: 140px 0 80px 0;
-}
-
-.title {
-	font-family: 'AtlasGroteskWeb-Bold';
-	font-size: 140%;
-	padding-bottom: 10px;
-}
-
-.para {
-	font-family: 'AtlasGroteskWeb-Regular';
-	font-size: 90%;
-	padding-bottom: 20px;
-	opacity: 0.6;
-}
-
 .contact {
-	font-size: 160%;
-	padding-bottom: 40px;
+	font-family: 'MaisonNeue-Mono';
+	font-size: 90%;
+	color: #ec9fc8;
+	margin-top: 80px;
 }
-.contact:hover {
-	opacity: 0.5;
-}
-
 .cr {
-	font-size: 80%;
-	padding-bottom: 60px;
-	opacity: 0.6;
-}
-
-.fade {
-	opacity: 0.4;
-}
-
-.faded {
+	padding-top: 90px;
 	opacity: 0.2;
 }
 
-.fadedex {
-	opacity: 0.1;
+
+
+/*ABOUT ME*/
+.hero_img {
+	position: fixed;
+	width: 300px;
+	height: 300px;
+	z-index: 1;
+	left: 50%;
+	top: 50%;
+	margin-left: -150px;
+	margin-top: -320px;
+	transform: rotate(2deg);
+	opacity: 0.9;
+}
+.hero_img img {
+	width: 100%;
+}
+.intro_main_about {
+	font-family: 'Theinhardt-Bold';
+	font-size: 940%;
+	letter-spacing: -4px;
+	line-height: 92%;
+	padding: 60px 0 80px 0;
+	color: #fff;
+	height: 480px;
+	position: relative;
+	z-index: 3;
+}
+.intro_sub_about {
+	font-family: 'Theinhardt-Light';
+	font-size: 200%;
+	line-height: 140%;
+	max-width: 900px;
+	color: #fff;
 }
 
-.pin {
-	display: inline-block;
+.close-container{
+  position: fixed;
+  margin: auto;
+  width: 80px;
+  height: 80px;
+  left: 20px;
+	top: 20px;
+  cursor: pointer;
+	z-index: 20;
+}
+.leftright{
+  height: 8px;
+  width: 80px;
+	top: 56px;
+  position: fixed;
+  background-color: #fff;
+  transform: rotate(45deg);
+  transition: all .3s ease-in;
+}
+.rightleft{
+  height: 8px;
+  width: 80px;
+	top: 56px;
+  position: fixed;
+  background-color: #fff;
+  transform: rotate(-45deg);
+  transition: all .3s ease-in;
+}
+.close-container:hover .leftright{
+  transform: rotate(-45deg);
+  background-color: #fff;
+}
+.close-container:hover .rightleft{
+  transform: rotate(45deg);
+  background-color: #fff;
 }
 
-.location {
-	padding-top: 30px;
+
+
+/*HOME*/
+body {
+	font-size: 16px;
+	line-height: 28px;
+	width: 100%;
+	margin: 0 auto;
+}
+.cover {
+	max-width: 1230px;
+	padding: 100px 60px 260px 60px;
+	margin: 0 auto;
+}
+.intro_main {
+	font-family: 'Theinhardt-Bold';
+	font-size: 940%;
+	letter-spacing: -4px;
+	line-height: 92%;
+	padding: 60px 0 80px 0;
+	color: #fff;
+	height: 500px;
+}
+.intro_sub {
+	font-family: 'Theinhardt-Light';
+	font-size: 200%;
+	line-height: 140%;
+	max-width: 900px;
+	color: #fff;
 }
 
-.current {
-	font-family: 'AtlasGroteskWeb-Bold';
+
+.work_one {
+	background-color: #fff;
+}
+.work_one_content {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 120px 60px;
+	background-color: #fff;
+}
+.work_one_box {
+	max-width: 360px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 80px;
+}
+.work_one_box img {
+	width: 100%;
+}
+.text_one_box {
+	font-family: 'Theinhardt-Light';
+	font-size: 480%;
+	line-height: 100%;
+	margin: 0 auto;
+	padding: 0 0 40px 0;
+}
+.text_one_box span {
+	font-family: 'Theinhardt-Bold';
+	color: #ec9fc8;
+}
+.see_all_one {
+	font-family: 'MaisonNeue-Mono';
+	font-size: 90%;
+	color: #ec9fc8;
 }
 
 
-/*IPHONE*/
-@media only screen and (min-device-width: 375px)
- and (max-device-width: 600px)
- and (orientation : portrait) {
+.work_two {
+	background-color: #000;
+}
+.work_two_content {
+	max-width: 1230px;
+	margin: 0 auto;
+	padding: 120px 60px;
+	background-color: #000;
+}
+.work_two_box {
+	max-width: 360px;
+	margin: 0 auto;
+	text-align: center;
+	padding-top: 80px;
+}
+.work_two_box img {
+	width: 100%;
+}
+.text_two_box {
+	font-family: 'Theinhardt-Light';
+	font-size: 480%;
+	line-height: 100%;
+	margin: 0 auto;
+	padding: 0 0 40px 0;
+	color: #292a2c;
+}
+.text_two_box a {
+	font-family: 'Theinhardt-Bold';
+	color: #fff;
+}
+.text_two_box a:hover {
+	color: #B2FAC7;
+}
+.see_all_two {
+	font-family: 'MaisonNeue-Mono';
+	font-size: 90%;
+	color: #fff;
+}
 
-	 body {
-	 	font-size: 18px;
-		line-height: 36px;
-	 }
 
-		.intro_main {
-			font-size: 180%;
-			line-height: 140%;
-			height: 90px;
-		}
 
-		.intro_sub {
-			font-size: 80%;
-			line-height: 166%;
-			max-width: 100%;
-		}
 
-		.cover {
-			padding-bottom: 10px;
-		}
 
-		.name {
-			font-size: 100%;
-			padding-top: 10px;
-		}
+@media only screen and (max-width: 1100px) {
+	.text_one_box {
+		font-family: 'Theinhardt-Light';
+		font-size: 280%;
+		line-height: 100%;
+		margin: 0 auto;
+		padding: 0 0 40px 0;
+	}
+	.text_two_box {
+		font-family: 'Theinhardt-Light';
+		font-size: 280%;
+		line-height: 100%;
+		margin: 0 auto;
+		padding: 0 0 40px 0;
+	}
+	.footer_box {
+		font-size: 140%;
+	}
+	.intro_main {
+		font-family: 'Theinhardt-Bold';
+		font-size: 11vw;
+		letter-spacing: -4px;
+		line-height: 110%;
+		padding: 60px 0 80px 0;
+		color: #fff;
+		height: 340px;
+	}
+	.intro_sub {
+		font-family: 'Theinhardt-Regular';
+		font-size: 200%;
+	}
+	.footer_box {
+		margin: 0 auto;
+		font-family: 'Theinhardt-Light';
+		font-size: 200%;
+	}
+	.work_two_box {
+		padding-top: 40px;
+	}
+	.work_one_box {
+		padding-top: 40px;
+	}
 
-		.mb {
-			display: block;
-		}
-
-		.dt {
-			display: none;
-		}
-
-		.pj_bk img {
-			width: 88%;
-		}
-
-		.pj_bk img:hover {
-			transform: scale(1.1);
-		}
-
-		.title {
-			font-size: 120%;
-			padding-bottom: 20px;
-		}
-
-		.para {
-			width: 90%;
-			line-height: 140%;
-		}
-
-		.pj_bk {
-			margin: 90px 0 90px 0;
-			border-bottom: 1px solid #e2e2e2;
-		}
-
-		.contact {
-			font-size: 200%;
-			padding: 60px 0 40px 0;
-		}
-
-		.cr {
-			font-size: 80%;
-			padding-bottom: 40px;
-		}
-
-		.pj_info {
-			padding: 60px 0 80px 0;
-		}
-
-		.pj_bk img {
-			width: 96%;
-			display: block;
-			margin: 0 auto;
-			transition: all 0.7s ease-in-out;
-		}
-		.pj_bk img:hover {
-			transform: scale(1);
-		}
-
+	.intro_main_about {
+		font-family: 'Theinhardt-Bold';
+		font-size: 14vw;
+		line-height: 110%;
+		height: 380px;
+	}
 }
