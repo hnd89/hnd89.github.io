@@ -338,6 +338,25 @@ body {
 		font-family: 'Theinhardt-Light';
 		font-size: 160%;
 	}
+	.cover {
+		padding: 100px 30px 200px 30px;
+	}
+	.footer_content {
+		padding: 100px 30px;
+	}
+	.work_one_content {
+		padding: 120px 30px;
+	}
+	.work_two_content {
+		padding: 120px 30px;
+	}
+	.header_box a{
+	  right: -40px;
+		font-size: 130%;
+	}
+	.hero_img {
+		top: 52%;
+	}
 }
 
 
