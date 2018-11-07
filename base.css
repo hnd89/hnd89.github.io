@@ -285,10 +285,63 @@ body {
 }
 
 
+@media only screen and (min-width: 100px) and (max-width: 600px) {
+	.intro_main {
+		font-family: 'Theinhardt-Bold';
+		font-size: 15vw;
+		letter-spacing: -4px;
+		line-height: 110%;
+		padding: 0 0 80px 0;
+		color: #fff;
+		height: 380px;
+	}
+
+	.text_one_box {
+		font-family: 'Theinhardt-Light';
+		font-size: 280%;
+		line-height: 100%;
+		margin: 0 auto;
+		padding: 0 0 40px 0;
+	}
+	.text_two_box {
+		font-family: 'Theinhardt-Light';
+		font-size: 280%;
+		line-height: 100%;
+		margin: 0 auto;
+		padding: 0 0 40px 0;
+	}
+	.footer_box {
+		font-size: 140%;
+	}
+	.intro_sub {
+		font-family: 'Theinhardt-Regular';
+		font-size: 160%;
+	}
+	.footer_box {
+		margin: 0 auto;
+		font-family: 'Theinhardt-Light';
+		font-size: 160%;
+	}
+	.work_two_box {
+		padding-top: 40px;
+	}
+	.work_one_box {
+		padding-top: 40px;
+	}
+	.intro_main_about {
+		font-family: 'Theinhardt-Bold';
+		font-size: 15vw;
+		line-height: 110%;
+		height: 300px;
+	}
+	.intro_sub_about {
+		font-family: 'Theinhardt-Light';
+		font-size: 160%;
+	}
+}
 
 
-
-@media only screen and (max-width: 1100px) {
+@media only screen and (min-width: 600px) and (max-width: 1100px) {
 	.text_one_box {
 		font-family: 'Theinhardt-Light';
 		font-size: 280%;
